@@ -6,7 +6,6 @@ import { bindActionCreators } from 'redux'
 
 import CustomCard from '../common/CustomCards'
 import {Creators as FormActions } from '../store/actions/form'
-import { dispatch } from '../../../../AppData/Local/Microsoft/TypeScript/3.5/node_modules/rxjs/internal/observable/range';
 
 
 const NewItem = (props) => (

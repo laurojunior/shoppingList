@@ -18,6 +18,7 @@ const Home = (props) => (
                 total={props.total} 
                 openedItems={props.openedItems}
                 closedItems={props.closedItems}
+                date={props.date}
             />
         }
     </div>
@@ -26,6 +27,7 @@ const Home = (props) => (
 const MapStateToProps = state =>({
     list: state.list,    
     total: getListTotal(state),
+    date:  state.list.date,
     openedItems: getOpenedItems(state),
     closedItems: getClosedItems(state),
 })

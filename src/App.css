@@ -1,0 +1,13 @@
+.title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header{
+  padding: 0px 20px;
+}
+
+.header .title{
+  text-align: left;
+}

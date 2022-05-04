@@ -1,7 +1,2950 @@
 {
-  "teste":{
-    "maravilha":{
-      "title":"Conteudo da Traducao"
+    "academicDataForm": {
+        "title": "Informações acadêmicas",
+        "studentTypeNew": "Você vai estudar para",
+        "studentTypeUpdate": "Você está estudando para",
+        "studentDegreeLevel": "Seu nível de escolaridade atual",
+        "university": "Universidade",
+        "course": "Curso",
+        "school": "Colégio",
+        "state": "Estado",
+        "city": "Cidade",
+        "area": "Área de interesse",
+        "student": "Sou estudante",
+        "professor": "Sou professor",
+        "enrollmentDate": "Data de ingresso",
+        "enrollmentYear": "Ano de ingresso",
+        "conclusionDate": "Data de conclusão",
+        "connectedStudents": "estudantes conectados",
+        "notFoundUniversity": "Faculdade não encontrada",
+        "notFoundCourse": "Curso não encontrado",
+        "toast": {
+            "success": "Suas informações pessoais foram atualizadas com sucesso.",
+            "error": "Não conseguimos atualizar suas informações pessoais, tente novamente!"
+        },
+        "semesters": {
+            "first": "1º semestre",
+            "second": "2º semestre"
+        },
+        "placeholders": {
+            "studentType": "Selecione a escolaridade",
+            "studentDegreeLevel": "Selecione seu nível de escolaridade",
+            "state": "Selecione seu estado",
+            "area": "Selecione sua área de interesse",
+            "enrollmentDate": {
+                "year": "Ano",
+                "semester": "Semestre"
+            },
+            "underage": "Sou menor de 16 anos.",
+            "legalRepresentative": "Sou responsável legal deste menor de 16 anos e autorizo coleta e tratamento de seus dados pessoais para cadastro.",
+            "additionalInfo": "*Por favor, peça para o seu responsável clicar acima."
+        }
+    },
+    "common": {
+        "actionMenu": {
+            "download": "Baixar",
+            "delete": "Excluir",
+            "spotlight": "Destacar",
+            "report": "Reportar",
+            "reported": "Reportado",
+            "share": "Compartilhar",
+            "edit": "Editar",
+            "editContent": "Editar conteúdo",
+            "editData": "Editar dados",
+            "list": {
+                "shareMessage": "Recomendo essa lista que achei no Passei Direto"
+            },
+            "sendToApp": "Ver no celular",
+            "remove": "Excluir",
+            "denounce": "Denunciar",
+            "pdpTitle": "PD Produtores"
+        },
+        "authorBadge": {
+            "text": "Conteudo produzido pelo {userName}"
+        },
+        "buttonFollow": {
+            "follow": "Seguir",
+            "following": "Seguindo",
+            "followWithCount": "Seguir • {followCount}",
+            "followingWithCount": "Seguindo • {followCount}"
+        },
+        "pdButtonFollowUser": {
+            "maxFollowingLimitMessage": "Você já segue o máximo de usuários permitidos."
+        },
+        "cardMaterial": {
+            "like": "{amount} curtidas",
+            "comment": "{amount} comentários",
+            "edit": "Editar"
+        },
+        "pdCardBook": {
+            "isbn": "ISBN: {isbn}"
+        },
+        "pdCardFile": {
+            "pageCount": "pág."
+        },
+        "pdCardQuestion": {
+            "answer": "{amount} respostas",
+            "answerPremium": "Resposta especialista",
+            "answerTitle": "Resposta"
+        },
+        "pdCardTbs": {
+            "isbn": "ISBN: {isbn}"
+        },
+        "pdCardUserPopover": {
+            "friendshipRequest": {
+                "add": "Adicionar",
+                "sent": "Enviado",
+                "accept": "Aceitar",
+                "decline": "Recusar",
+                "friend": "Contato"
+            }
+        },
+        "pdCardVideo": {
+            "view": "{amount} visualizações"
+        },
+        "deleteMaterialModal": {
+            "title": "Excluir",
+            "question": "Deseja excluir o material selecionado?",
+            "warn": "Essa ação não pode ser desfeita!",
+            "cancelButtonLabel": "Cancelar",
+            "confirmButtonLabel": "Excluir",
+            "succesMessage": "Material removido com sucesso."
+        },
+        "evaluation": {
+            "likeTooltip": "Curtida | Curtidas",
+            "studentsWhoLiked": "Estudantes que curtiram",
+            "modal": {
+                "error": {
+                    "title": "Ops! Ocorreu um erro!",
+                    "subtitle": "Tente novamente mais tarde"
+                }
+            }
+        },
+        "autoComplete": {
+            "noItemsNoInput": "Digite para procurar",
+            "noItems": "Nenhum resultado encontrado",
+            "searching": "Buscando",
+            "required": "Selecione uma das opções"
+        },
+        "cityAutocomplete": {
+            "label": "Cidade",
+            "placeholder": "Digite sua cidade"
+        },
+        "courseAutocomplete": {
+            "label": "Curso (o nome do seu curso pode não estar exato)",
+            "labelSimple": "Curso",
+            "labelOptional": " (Opcional)",
+            "placeholder": "Selecione seu curso",
+            "connectedStudents": "estudantes conectados",
+            "notFound": "Não encontrei meu curso na lista",
+            "suggestedNotFoundMessage": "Mais 600 cursos. Digite para encontrar",
+            "suggestionModal": {
+                "title": "Sugerir curso",
+                "subject": "Não encontrou seu curso?",
+                "linkRedirect": "Fale com a gente clicando neste link!",
+                "info": "Enquanto isso, você pode concluir seu perfil nos dizendo a faculdade e curso que tenham a ver com o que está estudando."
+            }
+        },
+        "schoolAutocomplete": {
+            "label": "Colégio",
+            "labelOptional": " (Opcional)",
+            "placeholder": "Selecione seu colégio",
+            "connectedStudents": "estudantes conectados",
+            "notFound": "Não encontrei meu colégio na lista",
+            "suggestedNotFoundMessage": "Mais 13.000 colégios. Digite para encontrar",
+            "suggestionModal": {
+                "title": "Sugerir colégio",
+                "subject": "Não encontrou seu colégio?",
+                "linkRedirect": "Fale com a gente clicando neste link!",
+                "info": "Por favor informe o nome e o site de seu colégio."
+            }
+        },
+        "universityAutocomplete": {
+            "label": "Faculdade",
+            "labelOptional": " (Opcional)",
+            "placeholder": "Selecione sua faculdade ou sigla",
+            "connectedStudents": "estudantes conectados",
+            "notFound": "Não encontrei minha faculdade na lista",
+            "suggestedNotFoundMessage": "Mais 2700 faculdades. Digite para encontrar",
+            "suggestionModal": {
+                "title": "Sugerir universidade",
+                "subject": "Não encontrou sua universidade?",
+                "linkRedirect": "Fale com a gente clicando neste link!",
+                "info": "Por favor informe o nome, sigla e o site de sua universidade."
+            }
+        },
+        "header": {
+            "alerts": {
+                "bankSlip": {
+                    "message": "Não perca tempo, pague seu boleto e descubra o que é ser Premium.",
+                    "link": "VER BOLETO"
+                },
+                "creditCard": {
+                    "message": "Houve um erro no processamento do seu cartão de crédito. Descubra o que é ser Premium.",
+                    "link": "ALTERAR CARTÃO"
+                },
+                "renewal": {
+                    "card": {
+                        "message": "Houve uma falha na renovação do seu Premium. Altere o cartão para manter sua assinatura.",
+                        "link": "Alterar Cartão"
+                    },
+                    "pix": {
+                        "message": "Não perca tempo, efetue o pagamento do PIX para continuar sendo Premium.",
+                        "link": "PAGAR AGORA"
+                    }
+                },
+                "maintenance": {
+                    "message": "{weekday} ({dayAndMonth}), às {hour}h, nosso site estará em manutenção para melhorar ainda mais sua experiência de estudo."
+                },
+                "privacyPolicy": {
+                    "message": "Atualizamos nossos <a href=\"/termos-de-uso\" target=\"_blank\">Termos de Uso</a> e <a href=\"/privacidade\" target=\"_blank\"> Política de Privacidade</a>. Recomendamos que leia esses documentos. |  ",
+                    "link": "Ok, estou ciente"
+                },
+                "email": {
+                    "pendent": {
+                        "message": "Confirme seu e-mail. Enviamos instruções para <strong>{email}</strong>.",
+                        "didNotRecive": "Não recebeu?",
+                        "resend": "Reenviar",
+                        "change": "Alterar e-mail"
+                    },
+                    "oldUser": {
+                        "message": "Precisamos falar contigo. Seu e-mail é o <strong>{email}</strong>?",
+                        "confirm": "Sim",
+                        "change": "Não, preciso atualizar"
+                    },
+                    "microsoftPendent": {
+                        "message": "Ei, precisamos concluir seu cadastro. Seu e-mail é o <strong>{email}</strong>?",
+                        "confirm": "Sim",
+                        "change": "Não, preciso atualizar"
+                    },
+                    "info": {
+                        "title": "Informe seu e-mail atual.",
+                        "message": "Por favor, altere seu e-mail para receber nossa mensagem. Ela é importante ao seu acesso ;)",
+                        "button": "Alterar e-mail"
+                    }
+                },
+                "promoSale": {
+                    "exclusiveDiscount": "<span class=\"bold\">DESCONTO EXCLUSIVO!</span>",
+                    "premiumMonthPrices": "Premium Mensal de <span class=\"dashed\">{price}</span> por <span class=\"bold\">{discountedPrice}</span>.",
+                    "enjoy": "Aproveite antes que <span class=\"bold\">expire!</span>",
+                    "iWantDiscount": "Quero desconto!"
+                },
+                "retry": {
+                    "title": "Seu pagamento do Premium com o cartão {brand} - {lastFourCardNumber} não deu certo. Tente pagar novamente e continue tendo acesso ilimitado a todos os materiais.",
+                    "link": "Tente novamente"
+                }
+            }
+        },
+        "confirmModal": {
+            "cancelButtonLabel": "Cancelar",
+            "confirmButtonLabel": "Confirmar"
+        },
+        "alertModal": {
+            "confirmButtonLabel": "Ok"
+        },
+        "modalTrendingDigest": {
+            "title": "Parabéns, {user}!",
+            "body": "Enquanto seu material for um dos mais acessados da rede, ele recebe o <b>dobro de pontos</b> por cada visualização, curtida e conteúdo salvo",
+            "statsLink": "Veja suas estatísticas",
+            "shareTitle": "Compartilhar material",
+            "shareMessage": "Meu material entrou em alta! \nEntre os milhares de materiais do Passei Direto, o meu foi um dos mais acessados. Estude agora com ele! 🤩\n",
+            "materialLink": "Ver material"
+        },
+        "modalPaymentFailure": {
+            "title": "Ainda não conseguimos receber seu pagamento",
+            "bodyAll": "Adicione um novo cartão para renovar seu Plano <strong>{plan}</strong> ou, se preferir, faça o pagamento com Pix!",
+            "bodyMonth": "Adicione um novo cartão para renovar seu <strong>Premium Mensal</strong> ou, se preferir, <strong>assine o Plano Premium Trimestral</strong> e pague com Pix!",
+            "btnSubscribeQuartely": "Assinar Plano Trimestral",
+            "btnPaymentPix": "Pagar com Pix",
+            "btnAddCard": "Adicionar novo cartão"
+        },
+        "toastPaymentFailure": {
+            "message": "Ops, tivemos uma falha no processamento. Tente novamente."
+        },
+        "modalPaymentSuccess": {
+            "title": "<span style=\"color: #FF7300\">Uhul!</span> Seu pagamento foi<br> confirmado :)",
+            "body": "Agora deu tudo certo e você já pode voltar a ver todos os materiais completos e continuar aproveitando seu Premium Mensal."
+        },
+        "optionDeleteListModal": {
+            "title": "Último material da lista",
+            "message": "Ao remover o último material, você não terá nada para estudar nesta lista. <strong>Deseja excluí-la agora ou remover apenas o material?</strong>",
+            "deleteMaterial": "Remover material",
+            "deleteList": "Excluir lista"
+        },
+        "reportModal": {
+            "title": "Reportar",
+            "textareaPlaceholder": "Explique o motivo",
+            "cancelButtonLabel": "Cancelar",
+            "sendButtonLabel": "Enviar",
+            "successMessage": "Sua denúncia foi enviada com sucesso",
+            "alreadyReportedMessage": "Você já denunciou esse material"
+        },
+        "saveMaterialAction": {
+            "error": "Erro ao verificar listas com esse conteúdo. Tente mais tarde."
+        },
+        "saveMaterialModal": {
+            "createList": {
+                "saveApp": "Suas listas também estarão disponíveis através do aplicativo",
+                "title": "Nova Lista",
+                "subtitle": "Crie sua lista para organizar os materiais que achar interessante",
+                "input": {
+                    "label": "Nome da Lista",
+                    "placeholder": "Ex: Materiais de Metodologia Científica"
+                },
+                "cancelButton": "Cancelar",
+                "createButton": "Criar Lista"
+            },
+            "listSelection": {
+                "title": "Salvar Material na Lista",
+                "saveButton": "Salvar",
+                "createListLabel": "Criar Nova Lista",
+                "listLimitMessage": "Limite atingido: {limit} salvos"
+            },
+            "cta": {
+                "title": "Quer reunir seus materiais mais usados em algum lugar?",
+                "subtitle": "Organize e salve seus materiais em listas para acessar quando precisar ;)",
+                "startButton": "Começar"
+            },
+            "addSuccessMessage": "Material salvo com sucesso. Ver em <a href=\"/listas\">Listas</a>.",
+            "removeSuccessMessage": "Material removido com sucesso da lista.",
+            "error": {
+                "limitMaterials": "Esta lista atingiu o limite de 50 materiais.",
+                "createListWithSameName": "Já existe uma lista com este nome."
+            },
+            "recommendedMaterialModal": {
+                "title": "Material adicionado à sua lista! Quem salvou este, também salvou: ",
+                "subtitle": "Salvar na lista: "
+            }
+        },
+        "pdShare": {
+            "pdShareMenu": {
+                "title": "Compartilhar"
+            },
+            "pdShareModal": {
+                "title": "Compartilhar"
+            },
+            "pdSharedContent": {
+                "title": "Compartilhar",
+                "clipboard": "Copiar link",
+                "successCopy": "Link Copiado!",
+                "errorCopy": "Não foi possível copiar o link"
+            },
+            "file": {
+                "message": "Recomendo esse arquivo que achei no Passei Direto"
+            },
+            "book": {
+                "message": "Recomendo esse livro que achei no Passei Direto"
+            },
+            "tbs": {
+                "message": "Recomendo esses exercícios resolvidos que achei no Passei Direto"
+            },
+            "video": {
+                "message": "Recomendo esse vídeo que achei no Passei Direto"
+            },
+            "question": {
+                "message": "Recomendo essa pergunta que achei no Passei Direto"
+            },
+            "default": {
+                "message": "Recomendo esse conteúdo que achei no Passei Direto"
+            }
+        },
+        "pdToast": {
+            "downloadApp": "baixar o app"
+        },
+        "pdUserAvatarList": {
+            "specificUsersCount": " • {count} da {name}",
+            "followers": "{count} seguidores"
+        },
+        "sendToAppModal": {
+            "titleText": "Baixe o aplicativo e veja o material",
+            "dividerText": "ou",
+            "phone": {
+                "label": "Número de telefone",
+                "ruleError": "Telefone inválido",
+                "success": "Link será enviado em breve.",
+                "error": "Erro ao enviar link. Tente novamente."
+            },
+            "email": {
+                "label": "Email",
+                "ruleError": "Email inválido",
+                "success": "Link será enviado em breve.",
+                "error": "Erro ao enviar link. Tente novamente."
+            },
+            "sendButton": "Enviar"
+        },
+        "apiError": "Estamos tendo uma instabilidade no sistema. Por favor, tente mais tarde.",
+        "maxFollowingSubjectsMessage": "Você já segue o máximo de disciplinas permitidas.",
+        "maxFollowingListsMessage": "Você já segue o máximo de listas permitidas.",
+        "maxFollowingMessage": "Você já segue o número máximo permitido.",
+        "tooManyRequestsMessage": "Ops! Recebemos solicitações repetidas e não é mais possível realizar esta ação. Por favor, tente de novo mais tarde.",
+        "friendshipRequest": {
+            "toast": {
+                "accept": "Requisição de contato aceita",
+                "acceptError": "Erro ao aceitar requisição de contato",
+                "ignore": "Requisição de contato ignorada",
+                "ignoreError": "Erro ao ignorar requisição de contato"
+            }
+        },
+        "premium": "Premium",
+        "specialists": "Especialistas",
+        "saveLabel": {
+            "save": "Salvar",
+            "saved": "Salvo"
+        },
+        "sendToMobile": {
+            "materialSent": "Enviamos este arquivo para o seu aplicativo.",
+            "error": "Falha ao arquivo para seu aplicativo. Tente novamente."
+        },
+        "liveHelp": "Posso te ajudar?",
+        "dateTime": {
+            "days": "dias|dia|dias",
+            "months": "meses|mês|meses"
+        },
+        "email": {
+            "confirm": "E-mail confirmado, aproveite seu acesso",
+            "confirmError": "Erro na confirmação. Por favor, tente novamente mais tarde.",
+            "sendConfirm": "Ótimo! Confira sua caixa de entrada ;)",
+            "microsoftConfirm": "Veja seu e-mail. Se não achar a nossa mensagem, olhe o SPAM.",
+            "resend": "Pronto! Confira sua caixa de entrada"
+        },
+        "paymentLoad": {
+            "title": "Aguarde, seu pagamento está sendo processado",
+            "subtitle": "Não feche a página. A confirmação de pagamento pode demorar alguns instantes."
+        }
+    },
+    "pdButtonFilter": {
+        "footer": {
+            "clear": "Limpar",
+            "apply": "Aplicar"
+        }
+    },
+    "followList": {
+        "follow": "Salvo com sucesso em <a href=\"/listas\">Listas</a>",
+        "unfollow": "Lista removida com sucesso"
+    },
+    "card": {
+        "materialsSaved": "material | materiais",
+        "noFollowers": "não há seguidores desta lista",
+        "actions": {
+            "edit": "Editar",
+            "delete": "Excluir"
+        },
+        "editlistModal": {
+            "title": "Editar lista"
+        },
+        "share": {
+            "message": "Recomendo essa lista que achei no Passei Direto"
+        }
+    },
+    "studentCard": {
+        "specialistDescription": "Especialista"
+    },
+    "studentCardCTA": {
+        "title": "Amplie sua rede de estudo",
+        "subtitle": "Recomendamos alguns perfis de acordo com os seus interesses",
+        "button": {
+            "label": "Ver mais"
+        }
+    },
+    "pdChangePictureModal": {
+        "cancel": "Cancelar",
+        "title": "Editar foto",
+        "changeButton": "Editar",
+        "selectPicPc": "Escolher foto do seu <strong>computador</strong>",
+        "selectPicFb": "Importar sua foto do <strong>Facebook</strong>",
+        "alreadyFacebookPic": "Você está usando sua foto do <strong>Facebook</strong>",
+        "error": {
+            "sameImage": "A foto é idêntica à sua foto atual.",
+            "noImage": "Falha ao importar a foto.",
+            "generic": "Não foi possível importar a foto.",
+            "notImageFile": "Arquivo enviado não é uma imagem",
+            "fileLargerThan5MB": "Não é possível enviar imagens com mais de 5MB"
+        },
+        "facebookPhotoUpdated": "Foto do facebook importada com sucesso",
+        "close": "fechar"
+    },
+    "pdCropPictureModal": {
+        "save": "Salvar",
+        "error": {
+            "invalidRequest": "Requisição inválida",
+            "alreadyDefaultAvatar": "Não foi possível alterar a imagem",
+            "generic": "Ocorreu um erro interno em nosso sistema. Por favor tente novamente."
+        }
+    },
+    "pdCreditCard": {
+        "required": "Campo obrigatório",
+        "cardNumber": "Nº do cartão de crédito*",
+        "expiration": "Validade*",
+        "cvv": "CVV*",
+        "name": "Nome impresso no cartão*",
+        "namePlaceholder": "Ex: JOAO SILVA",
+        "cpf": "CPF*",
+        "installments": "Parcelas",
+        "error": {
+            "cardNumber": "Número de cartão inválido",
+            "expiration": "Data de validade inválida",
+            "cvv": "Código inválido",
+            "name": "Informar o nome impresso no cartão",
+            "cpf": "CPF inválido"
+        }
+    },
+    "multipleComboBox": {
+        "tagTitle": "Nova tag : "
+    },
+    "subjectAutocomplete": {
+        "label": "Disciplina",
+        "materialCount": "1 material | {materialCount} materiais",
+        "followerCount": "1 seguidor | {followerCount} seguidores",
+        "noItemsNoInput": "Digite para procurar",
+        "noItems": "Nenhum resultado encontrado",
+        "searching": "Buscando ...",
+        "required": "Selecione uma das opções"
+    },
+    "tagAutocomplete": {
+        "label": "Tags (opcional)",
+        "search": {
+            "noItemsNoInput": "Digite para procurar",
+            "noItems": "Nenhum resultado encontrado",
+            "searching": "Buscando...",
+            "result": {
+                "item": {
+                    "materialCount": "1 material | {n} materiais"
+                }
+            }
+        },
+        "rules": {
+            "materialTagCount": "São permitidas no máximo 5 tags",
+            "tagLength": "Cada tag deve ter no máximo 60 caracteres"
+        }
+    },
+    "pdGamificationBox": {
+        "errorLoadingBox": "Erro ao carregar ranking. Por favor tente novamente mais tarde!",
+        "seeMoreInfo": "Parece que não tem muito movimento por aqui. Veja sua colocação no",
+        "generalRanking": "Ranking Geral",
+        "ranking": "Ranking",
+        "rankingAll": "Ranking geral",
+        "howWorks": "Como funciona?",
+        "points": "pts"
+    },
+    "pdGamificationModal": {
+        "btnSendMaterial": "Enviar Material",
+        "btnQuestion": "Responda Perguntas",
+        "helpOthers": "Ajude outros estudantes, ganhe pontos e seja Premium!",
+        "receivePointsInfo": "Como eu ganho pontos?",
+        "points": "<strong>{points}</strong>pts",
+        "point": "{description} {value}<strong> Ponto{plural} </strong> ",
+        "bePremium": "<strong>Seja Premium</strong>",
+        "bePremiumOneClick": "<strong>Volte a ser Premium</strong>",
+        "bePremiumFreeTrial": "<strong>Experimentar grátis</strong>",
+        "unlimitedAccessFreeTrial": "Quer acessar tudo agora? Experimente o Premium.",
+        "unlimitedAccess": "Quer acesso ilimitado agora?",
+        "seeWhereItIsGamefication": "Veja onde está {studentName} na Gamificação.",
+        "helpAndBePremium": "Ajude outros estudantes, ganhe pontos e seja <strong>Premium</strong>!",
+        "pointsLeft": "Faltam apenas <strong>{points}</strong> pontos para você ser Premium {premiumTime}",
+        "yourPoints": {
+            "user": "{name} tem",
+            "points": "<strong>{points}</strong>pts"
+        },
+        "by": "por ",
+        "day": " dia",
+        "days": " dias",
+        "month": " mês",
+        "months": " meses",
+        "year": " ano",
+        "years": " anos",
+        "PREMIUM": " PREMIUM"
+    },
+    "pdMaterialCarousel": {
+        "findMoreMaterial": {
+            "title": "Não achou o que procurava?",
+            "subtitle": "Acesse a nossa busca e procure melhor o que deseja",
+            "placeholder": "Buscar ..."
+        }
+    },
+    "pdMb": {
+        "title": "você não selecionou",
+        "renew": "Renovar",
+        "renewWithSucess": "Livro renovado com sucesso",
+        "renewWithError": "Não foi possível renovar esse livro. Tente novamente mais tarde"
+    },
+    "deleteListModal": {
+        "title": "Excluir lista",
+        "textConfirm": "Tem certeza que deseja excluir a lista",
+        "notice": "Essa ação não poderá ser desfeita.",
+        "footer": {
+            "confirm": "Excluir",
+            "cancel": "Cancelar"
+        },
+        "deleteToast": {
+            "success": "Lista excluída com sucesso.",
+            "error": "Falha ao excluir a lista."
+        }
+    },
+    "editListModal": {
+        "app": "Suas listas também estarão disponíveis através do aplicativo",
+        "title": "Editar lista",
+        "subtitle": "Crie sua lista para organizar os materiais que achar interessante",
+        "nameList": "Nome da lista",
+        "footer": {
+            "deleteList": "Excluir lista",
+            "save": "Salvar",
+            "cancel": "Cancelar"
+        },
+        "action": {
+            "save": {
+                "success": "Lista alterada com sucesso.",
+                "error": "Falha ao alterar a lista."
+            }
+        }
+    },
+    "suggestedSubjectsBox": {
+        "title": "Disciplinas sugeridas",
+        "materialCount": "{count} materiais",
+        "followerCount": "{count} seguidores",
+        "subjectFollowSuccess": "Agora você está seguindo {subjectName}",
+        "buttonMoreSubjects": "Mais disciplinas"
+    },
+    "emptyState": {
+        "searchMaterial": "Nenhum material adicionado",
+        "notFound": "Ainda não temos materiais aqui, busque por outros conteúdos",
+        "findMaterials": "Encontre materiais de estudo"
+    },
+    "pdInternalServerErrorMessage": {
+        "title": "Ops! Ocorreu um erro!",
+        "subtitle": "Nossos servidores devem estar com problemas.",
+        "meta": "Erro interno"
+    },
+    "enum": {
+        "contentObjectType": {
+            "Student": "Aluno",
+            "University": "Universidade",
+            "CourseMap": "Curso Geral??",
+            "Course": "Curso",
+            "Comment": "Comentário",
+            "File": "Arquivo",
+            "Subject": "Disciplina",
+            "Question": "Pergunta",
+            "Answer": "Resposta",
+            "Video": "Vídeo",
+            "School": "Colégio",
+            "BookSolution": "Exercício Resolvido",
+            "MaterialList": "Lista",
+            "Campus": "Campus",
+            "PremiumContent": "Material Premium",
+            "StudyPlan": "Plano de Estudos",
+            "SubjectMap": "Disciplina Geral??",
+            "Quiz": "Quiz",
+            "Book": "Livro"
+        },
+        "date": {
+            "month": {
+                "January": "Janeiro",
+                "February": "Fevereiro",
+                "March": "Março",
+                "April": "Abril",
+                "May": "Maio",
+                "June": "Junho",
+                "July": "Julho",
+                "August": "Agosto",
+                "September": "Setembro",
+                "October": "Outubro",
+                "November": "Novembro",
+                "December": "Dezembro"
+            },
+            "period": {
+                "Day": "Dia",
+                "Week": "Semana",
+                "Month": "Mês",
+                "Semester": "Semestre",
+                "Year": "Ano"
+            }
+        },
+        "sectionType": {
+            "Subject": "Disciplina",
+            "List": "Lista"
+        },
+        "materialCategory": {
+            "Textbook": "Livro",
+            "Exam": "Prova",
+            "Homework": "Exercício",
+            "Lecture": "Aula",
+            "Summary": "Resumo",
+            "Assignment": "Trabalho",
+            "Other": "Outros"
+        },
+        "materialFormat": {
+            "Text": "Texto",
+            "Video": "Vídeo",
+            "Audio": "Áudio",
+            "Image": "Imagem",
+            "Other": "Outros",
+            "File": "Arquivo",
+            "Question": "Pergunta",
+            "Book": "Livro"
+        },
+        "materialUserType": {
+            "All": "Todos",
+            "Specialist": "Especialistas",
+            "Student": "Estudantes"
+        },
+        "paymentMethod": {
+            "All": "Todos",
+            "CreditCard": "Cartão de Crédito",
+            "BankSlip": "Boleto"
+        },
+        "questionStatus": {
+            "All": "Todas",
+            "Answered": "Respondidas",
+            "NotAnswered": "Não respondidas",
+            "SpecialistAnswered": "Respondidas por especialistas"
+        },
+        "searchContentType": {
+            "All": "Tudo",
+            "Material": "Materiais de estudo",
+            "Question": "Perguntas",
+            "Subject": "Disciplinas",
+            "MaterialList": "Listas",
+            "Student": "Perfis"
+        },
+        "searchOrder": {
+            "Popular": "Mais populares",
+            "Recent": "Mais recentes"
+        },
+        "degreeLevel": {
+            "ElementarySchool": "Ensino Fundamental",
+            "HighSchool": "Ensino Médio (Enem & Vestibulares)",
+            "TechnicalSchool": "Ensino Técnico",
+            "Graduate": "Graduação",
+            "Postgraduate": "Pós Graduação"
+        },
+        "studentType": {
+            "ElementarySchool": "Ensino Fundamental",
+            "HighSchool": "Ensino Médio (Enem & Vestibulares)",
+            "Graduate": "Graduação",
+            "Postgraduate": "Pós Graduação",
+            "GeneralStudies": "Estudos Gerais",
+            "PublicExam": "Concurso Público"
+        },
+        "userProfileType": {
+            "All": "Todos",
+            "Student": "Estudantes",
+            "Specialist": "Especialistas"
+        },
+        "filterType": {
+            "MATERIAL_CATEGORY": "Categoria",
+            "MATERIAL_FORMAT": "Formato",
+            "AREA": "Área",
+            "QUESTION_RESPONSE_STATUS": "",
+            "SCHOOL": "Escola",
+            "UNIVERSITY": "Universidade",
+            "COURSE": "Curso",
+            "CONTENT": "tipo",
+            "SUBJECT": "Disciplina"
+        }
+    },
+    "dashboardCards": {
+        "cardList": {
+            "materialsSaved": "material | materiais"
+        },
+        "cardSubject": {
+            "sharedMaterials": "materiais"
+        },
+        "file": {
+            "pages": "{count} pág."
+        },
+        "list": {
+            "materialCount": "{count} material|{count} materiais"
+        }
+    },
+    "pdUserCard": {
+        "specialistDescription": "Especialista"
+    },
+    "feedCards": {
+        "profile": {
+            "materialCount": "1 material | {materialCount} materiais"
+        },
+        "question": {
+            "replyVerified": "Respondida por Produtor Verificado"
+        },
+        "subject": {
+            "materialCount": "1 material | {materialCount} materiais",
+            "followerCount": "1 seguidor | {followerCount} seguidores"
+        },
+        "list": {
+            "materials": "material | materiais"
+        },
+        "cardSubject": {
+            "sharedMaterials": "materiais",
+            "alternativeName": " - (Relacionado à: {alternativeName})",
+            "followers": "seguidor | seguidores"
+        }
+    },
+    "home": {
+        "sectionNew": {
+            "list": {
+                "title": "Listas recomendadas"
+            },
+            "newMaterial": {
+                "title": "Lançamentos recomendados para você",
+                "subtitle": "Materiais adicionados recentemente, com base nas disciplinas que você segue"
+            },
+            "savedMaterial": {
+                "title": "Últimos {materialCategory} que você salvou",
+                "materials": "materiais"
+            },
+            "trendingMaterial": {
+                "title": "Outras pessoas estão estudando",
+                "subtitle": "Os materiais mais populares na sua rede"
+            },
+            "producerMaterial": {
+                "title": "Materiais de especialistas",
+                "subtitle": "porque você segue esses perfis"
+            },
+            "subjectMaterial": {
+                "title": "Aprenda mais sobre",
+                "subtitle": "Porque você acessou materiais parecidos recentemente"
+            },
+            "more": "Ver mais",
+            "empty": {
+                "noCategory": {
+                    "title": "Receba recomendações com seus interesses de estudo",
+                    "subtitle": "Siga disciplinas e receba indicações com os melhores materiais para você",
+                    "buttonSubjects": "Seguir disciplinas"
+                },
+                "title": "Estamos sem recomendações para você agora",
+                "subtitle": "Você pode buscar outros materiais ou ver todos os conteúdos clicando abaixo",
+                "buttonFeminine": "Ver todas as {materialCategory}",
+                "buttonMasculine": "Ver todos os {materialCategory}"
+            },
+            "users": {
+                "title": "Perfis recomendados"
+            },
+            "subjects": {
+                "title": "Disciplinas recomendadas para você"
+            },
+            "continueStudying": {
+                "title": "Parecido com o que você viu recentementeJsao",
+                "subtitle": "Sugestões baseadas nos materiais que você estava estudando"
+            }
+        },
+        "all": {
+            "name": "Tudo",
+            "title": "Home "
+        },
+        "exam": {
+            "name": "Provas",
+            "title": "Provas "
+        },
+        "assignment": {
+            "name": "Trabalhos",
+            "title": "Trabalhos "
+        },
+        "summary": {
+            "name": "Resumos",
+            "title": "Resumos "
+        },
+        "homework": {
+            "name": "Exercícios",
+            "title": "Exercícios "
+        },
+        "other": {
+            "name": "Outros",
+            "title": "Outros "
+        },
+        "lecture": {
+            "name": "Aulas",
+            "title": "Aulas "
+        },
+        "message": "Bem Vindo ao seu App Vue"
+    },
+    "questions": {
+        "title": "Perguntas e respostas ",
+        "footer": {
+            "title": "Tire sua dúvida acadêmica1",
+            "buttonText": "Faça sua pergunta"
+        },
+        "emptyState": {
+            "title": "Ainda não temos perguntas e respostas para suas disciplinas",
+            "subtitle": "<b>Siga novas disciplinas</b> e aumente suas chances de receber boas recomendações! ;)",
+            "button": "Ver todas as disciplinas"
+        },
+        "sections": {
+            "interacted": {
+                "title": "Baseadas nos seus interesses",
+                "subtitle": "a partir dos conteúdos que você estuda"
+            },
+            "network": {
+                "title": "Baseadas na rede",
+                "subtitle": "a partir de quem tem os mesmos interesses que você"
+            }
+        },
+        "header": {
+            "title": "Tire sua dúvida acadêmica123",
+            "buttonText": "Faça sua pergunta"
+        },
+        "empty": {
+            "title": "Estamos sem recomendações para você agora",
+            "subtitle": "Você pode buscar outros materiais ou ver todos os conteúdos clicando abaixo",
+            "button": "Ver todas as perguntas"
+        }
+    },
+    "dynamicFilters": {
+        "moreFilters": {
+            "title": "Filtros",
+            "applyButton": "Filtrar | Filtrar • 1 | Filtrar • {qtyItems}",
+            "cleanButton": "Limpar",
+            "appliedFilters": "Filtros | 1 | {qtyItems}"
+        },
+        "materialCategorySection": {
+            "title": "Tipos de materiais"
+        },
+        "materialFormatSection": {
+            "title": "Formatos"
+        },
+        "materialSentSection": {
+            "title": "Enviados por"
+        },
+        "statusQuestionSection": {
+            "title": "Perguntas"
+        },
+        "profileSection": {
+            "title": "Perfis"
+        },
+        "subjectFilterSection": {
+            "title": "Disciplinas",
+            "searchPlaceholder": "Buscar outra disciplina"
+        },
+        "courseFilterSection": {
+            "title": "Cursos",
+            "searchPlaceholder": "Buscar outro curso"
+        },
+        "universityFilterSection": {
+            "title": "Universidades",
+            "searchPlaceholder": "Buscar outra universidade"
+        },
+        "schoolFilterSection": {
+            "title": "Escolas",
+            "searchPlaceholder": "Buscar outra escola"
+        },
+        "areaFilterSection": {
+            "title": "Áreas de interesse",
+            "searchPlaceholder": "Buscar outra área de interesse"
+        },
+        "searchFilterSection": {
+            "results": {
+                "seeAll": "Ver todos",
+                "seeLess": "Ver menos",
+                "noResults": "Nenhum resultado encontrado"
+            }
+        }
+    },
+    "pdSearchInFile": {
+        "input": "Buscar no material",
+        "result": {
+            "pageTotal": "<strong>1</strong> página com resultados encontrados | <strong>{total}</strong> páginas com resultados encontrados",
+            "item": {
+                "page": "Página {page}"
+            },
+            "empty": "Nenhum resultado encontrado. Tente outras palavras ou termos."
+        }
+    },
+    "didYouMean": {
+        "title": "Você quis dizer:"
+    },
+    "searchResultBar": {
+        "countWithQuery": "<strong>1</strong> resultado encontrado para: {query} | <strong>{count}</strong> resultados encontrados para: {query}",
+        "countWithoutQuery": "<strong>1</strong> resultado com termos relacionados aos pesquisados | <strong>{count}</strong> resultados com termos relacionados aos pesquisados"
+    },
+    "searchContentSection": {
+        "materialSectionTitle": "Materiais relacionados à sua busca",
+        "videoSectionTitle": "Vídeos relacionados à sua busca",
+        "materialListSectionTitle": "Listas relacionadas à sua busca",
+        "subjectSectionTitle": "Disciplinas relacionadas à sua busca",
+        "userSectionTitle": "Perfis relacionados à sua busca",
+        "questionSectionTitle": "Perguntas relacionadas à sua busca"
+    },
+    "schSearcResult": {
+        "resultsCount": "<strong>{count}</strong> resultados encontrados para: {query}",
+        "resultsCountNoQuery": "<strong>{count}</strong> resultados encontrados",
+        "container": {
+            "titleMaterial": "Materiais de estudos",
+            "titleQuestion": "Perguntas",
+            "titleSubjects": "Disciplinas",
+            "titleStudents": "Perfis",
+            "resultsCount": "{count} resultados"
+        },
+        "resultList": {
+            "search": {
+                "noResultsTitle": "Ops! Não encontramos o que você está buscando",
+                "noResultsSubtitle": "Busque outras palavras ou termos, a gente tem muita coisa por aqui"
+            }
+        }
+    },
+    "exactMatch": {
+        "didNotFind": "Não encontramos resultados exatos para <strong>{query}</strong>",
+        "retrySuggestion": "Tente usar termos gerais ou frases mais curtas",
+        "relatedResults": "Resultados com termos relacionados aos pesquisados",
+        "relatedResultsWithCount": "<strong>{count}</strong> resultados com termos relacionados aos pesquisados"
+    },
+    "contentSection": {
+        "didNotFind": "Não há resultados para <strong>{query}</strong> em <strong>{content}</strong>",
+        "tryOtherContent": "Confira resultados relacionados em outras categorias:"
+    },
+    "bio": {
+        "addLinksModal": {
+            "title": "Links pessoais",
+            "link": {
+                "label": "Link pessoal",
+                "placeholder": "Ex: www.facebook.com/fulano.de.tal",
+                "error": "Link inválido. Confira a digitação e tente de novo."
+            },
+            "addLink": "Adicionar mais links",
+            "cancel": "Cancelar",
+            "save": "Salvar",
+            "saveSuccess": "Links salvos com sucesso"
+        },
+        "title": "Biografia",
+        "placeholder": "Que tal contar um pouco sobre você e seus interesses de estudo? :)",
+        "addLinks": "Links pessoais",
+        "states": {
+            "saving": "Salvando...",
+            "saved": "Salvo"
+        },
+        "errors": {
+            "maxLength": "Ops, limite de caracteres ultrapassado"
+        },
+        "badge": {
+            "message": "{position}º no ranking ",
+            "typeOverall": "Geral",
+            "typeUniversity": "de Universidade",
+            "typeCourse": "de Curso"
+        }
+    },
+    "sectionHeader": {
+        "editSectionTooltip": "Editar seção",
+        "deleteSectionTooltip": "Remover seção"
+    },
+    "followingModal": {
+        "title": "Seguindo",
+        "tabs": {
+            "students": "Perfis",
+            "subjects": "Disciplinas"
+        },
+        "searchStudent": "Buscar perfil",
+        "students": " perfis | perfil | perfis",
+        "subjects": " disciplinas | disciplina | disciplinas",
+        "emptyState": {
+            "search": {
+                "title": "Ops! Não encontramos o que você está buscando",
+                "subtitle": "Tente outras palavras ou termos, a gente tem muita coisa por aqui"
+            },
+            "noStudents": {
+                "myProfile": {
+                    "title": "Que tal seguir outros perfis?",
+                    "subtitle": "Descubra materiais de quem tem os mesmos interesses que você",
+                    "button": "Procurar perfis"
+                },
+                "otherProfile": {
+                    "title": "Este perfil ainda não segue ninguém"
+                }
+            },
+            "noSubjects": {
+                "myProfile": {
+                    "title": "Que tal seguir algumas disciplinas?",
+                    "subtitle": "Siga disciplinas e fique por dentro das matérias",
+                    "button": "Procurar disciplinas"
+                },
+                "otherProfile": {
+                    "title": "Este perfil ainda não segue disciplinas"
+                }
+            }
+        }
+    },
+    "pdCardSubjectCta": {
+        "title": "Amplie sua poder de estudo",
+        "subtitle": "Recomendamos algumas disciplinas de acordo com o seu perfil",
+        "button": "Explorar"
+    },
+    "userInformation": {
+        "descriptionSummary": {
+            "seeMore": "Ver mais"
+        },
+        "featureSubjects": {
+            "text": "Destaque da disciplina "
+        }
+    },
+    "header": {
+        "userLinks": {
+            "addLinks": "Adicionar links",
+            "editCover": "Editar capa"
+        },
+        "menu": {
+            "changePhoto": "Trocar foto",
+            "partner": "Parceiro",
+            "specialist": "Especialista",
+            "editProfile": "Editar perfil",
+            "followers": "seguidor | seguidores",
+            "following": "seguindo",
+            "headerExam": "Concurso • {area}",
+            "headerInterest": "Área de interesse • {area}"
+        },
+        "error": {
+            "tryAgain": "Error, tente novamente"
+        },
+        "profileUpdatedWithSuccess": "Perfil atualizado com sucesso",
+        "unexpectedError": "Erro inesperado. Tente novamente mais tarde",
+        "pendingFriendRequestsError": "Erro inesperado ao obter as solicitações de amizade. Tente novamente mais tarde",
+        "followersModal": {
+            "students": " perfis | perfil | perfis",
+            "followers": "Seguidores",
+            "searchStudent": "Buscar perfil",
+            "emptyState": {
+                "img": "notFound",
+                "title": "Ops! Não encontramos o que você está buscando",
+                "subtitle": "Tente outras palavras ou termos, a gente tem muita coisa por aqui"
+            }
+        },
+        "userTabs": {
+            "statistics": "Estatísticas",
+            "statisticsTooltip": "Veja as estatísticas dos seus materiais no PD Produtores",
+            "configuration": "Configurações"
+        },
+        "participants": {
+            "main": "participantes"
+        }
+    },
+    "history": {
+        "premium": " Tenha acesso ao histórico de materiais visualizados por você e a outras vantagens",
+        "bePremium": "Seja Premium",
+        "seeMaterials": "Quer ver os materiais que já acessou?",
+        "noMaterialTitle": "Nenhum material adicionado",
+        "noMaterialSubtitle": "Ainda não temos materiais aqui, busque por outro conteudo.",
+        "noMaterialButton": "Encontre materiais de estudo",
+        "noMaterialImg": "noMaterial"
+    },
+    "list": {
+        "search": "Buscar listas",
+        "lists": "lista | listas",
+        "emptyOwnProfile": {
+            "img": "createList",
+            "title": "Sem listas por aqui",
+            "subtitle": "Busque outro conteúdo para continuar seus estudos.",
+            "button": "Veja materiais recomendados"
+        },
+        "empty": {
+            "img": "createList",
+            "title": "Sem listas por aqui",
+            "subtitle": "Busque outro conteúdo para continuar seus estudos"
+        },
+        "filter": "Filtrar por",
+        "filterOptions": {
+            "All": "Todas as listas",
+            "Mine": "Listas criadas",
+            "Followed": "Listas salvas"
+        }
+    },
+    "materialList": {
+        "list": "Lista",
+        "filterBy": "Filtrar por",
+        "search": "Buscar {type}",
+        "FILE": "Arquivos",
+        "QUESTION": "Perguntas",
+        "VIDEO": "Vídeos",
+        "STUDYPLAN": "Planos de estudo",
+        "BOOK": "Livros",
+        "contentType": {
+            "1": {
+                "singular": "<strong>{amount}</strong> arquivo",
+                "plural": "<strong>{amount}</strong> arquivos",
+                "search_singular": "<strong>{amount}</strong> arquivo encontrado",
+                "search_plural": "<strong>{amount}</strong> arquivos encontrados"
+            },
+            "2": {
+                "singular": "<strong>{amount}</strong> pergunta",
+                "plural": "<strong>{amount}</strong> perguntas",
+                "search_singular": "<strong>{amount}</strong> pergunta encontrada",
+                "search_plural": "<strong>{amount}</strong> perguntas encontradas"
+            },
+            "3": {
+                "singular": "<strong>{amount}</strong> vídeo",
+                "plural": "<strong>{amount}</strong> vídeos",
+                "search_singular": "<strong>{amount}</strong> vídeo encontrado",
+                "search_plural": "<strong>{amount}</strong> vídeos encontrados"
+            },
+            "4": {
+                "singular": "<strong>{amount}</strong> plano de estudo",
+                "plural": "<strong>{amount}</strong> planos de estudo",
+                "search_singular": "<strong>{amount}</strong> plano de estudo encontrado",
+                "search_plural": "<strong>{amount}</strong> planos de estudo encontrados"
+            },
+            "5": {
+                "singular": "<strong>{amount}</strong> livro",
+                "plural": "<strong>{amount}</strong> livros",
+                "search_singular": "<strong>{amount}</strong> livro encontrado",
+                "search_plural": "<strong>{amount}</strong> livros encontrados"
+            }
+        },
+        "empty": {
+            "search": {
+                "img": "notFound",
+                "title": "Ops! Não encontramos o que você está buscando",
+                "subtitle": "Tente outras palavras ou termos, a gente tem muita coisa por aqui",
+                "button": "Encontre materiais de estudo"
+            },
+            "material": {
+                "img": "sendMaterial",
+                "title": "Sem materiais contribuídos",
+                "subtitle": "Colabore você também, ajude outros estudantes",
+                "button": "Enviar material"
+            },
+            "question": {
+                "img": "noQuestion",
+                "title": "Sem perguntas",
+                "subtitle": "Tem alguma dúvida? Tire sua dúvida acadêmica",
+                "button": "Faça sua pergunta"
+            },
+            "noMaterial": {
+                "img": "noMaterial",
+                "title": "Nenhum material adicionado",
+                "subtitle": "Ainda não temos materiais aqui, busque por outros conteúdos",
+                "button": "Encontre materiais de estudo"
+            }
+        },
+        "materials": "<strong>{amount}</strong> material salvo",
+        "materials_plural": "<strong>{amount}</strong> materiais salvos"
+    },
+    "myProfile": {
+        "empty": {
+            "mine": {
+                "title": "Envie seu primeiro conteúdo :)",
+                "text": "Ajude milhões de estudantes e ganhe visualizações",
+                "send": "Enviar Material"
+            },
+            "other": {
+                "withoutContent": {
+                    "title": "Nenhum conteúdo por aqui :(",
+                    "text": "{userName} ainda não enviou materiais ou listas"
+                },
+                "withoutSectionOrSpotlight": {
+                    "title": "Nenhum conteúdo destacado por aqui",
+                    "text": "{userName} ainda não adicionou seções ao perfil dele"
+                }
+            }
+        }
+    },
+    "profile": {
+        "metas": {
+            "profile": "Perfil",
+            "lists": "Minhas listas",
+            "history": "Histórico de materiais vistos",
+            "bio": "Perfil bio"
+        },
+        "tabs": {
+            "myProfile": "Meu Perfil",
+            "profile": "Perfil",
+            "lists": "Listas",
+            "listsNew": "Salvos",
+            "history": "Histórico",
+            "sent": "Enviados",
+            "bio": "Bio"
+        },
+        "switchLabel": "Ver como visitante",
+        "viewModeMessage": "Você está vendo o seu perfil como outra pessoa.",
+        "multipleListsSectionModal": {
+            "newSection": {
+                "title": "Nova seção - Lista(s)",
+                "subtitle": "Selecione uma ou até 10 listas para adicionar como seção ao seu perfil:",
+                "actions": {
+                    "cancel": "Cancelar",
+                    "confirm": "Adicionar seção"
+                }
+            },
+            "onSectionEdited": {
+                "title": "Editar seção - Lista(s)",
+                "subtitle": "Edite sua seção adicionando ou removendo listas:",
+                "actions": {
+                    "cancel": "Cancelar",
+                    "confirm": "Editar seção"
+                }
+            },
+            "materialCount": " Material| Materiais",
+            "select": {
+                "label": "Selecionar lista(s) ({count}/{limit})",
+                "searchHint": "Digite para encontrar mais listas",
+                "searching": "Buscando",
+                "notFound": "Nenhuma lista encontrada"
+            },
+            "nameLabel": "Nome da seção",
+            "limitSectionsReached": "Limite de {limitSections} seções atingido. Exclua alguma seção para destacar."
+        },
+        "materialSectionModal": {
+            "materialSelection": {
+                "title": "Nova seção - Material",
+                "subtitle": "Selecione um material abaixo para adicionar como seção ao seu perfil:",
+                "searchLabel": "Buscar material",
+                "results": "material | materiais",
+                "emptyState": {
+                    "title": "Ops! Não encontramos o que você está buscando",
+                    "subtitle": "Tente outras palavras ou termos"
+                }
+            },
+            "titleSelection": {
+                "new": {
+                    "title": "Nova seção - Material",
+                    "subtitle": "Dê um nome à sua seção:",
+                    "confirm": "Adicionar seção"
+                },
+                "edit": {
+                    "title": "Renomear seção - Material",
+                    "subtitle": "Edite o nome da sua seção:",
+                    "confirm": "Renomear seção"
+                },
+                "inputPlaceholder": "Nome da seção",
+                "back": "Voltar",
+                "cancel": "Cancelar"
+            },
+            "limitSectionsReached": "Limite de {limitSections} seções atingido. Exclua alguma seção para destacar.",
+            "conflictDuplicateMaterial": "Seção com esse material já existente"
+        }
+    },
+    "profileSections": {
+        "addBanner": {
+            "title": "Destaque aqui seus conteúdos favoritos",
+            "text": "Adicione seções ao seu perfil e mostre os conteúdos que mais gosta.",
+            "limitReached": {
+                "title": "Você atingiu o limite de {limit} seções",
+                "text": "Para adicionar uma nova seção ao seu perfil, exclua alguma abaixo."
+            }
+        },
+        "addModal": {
+            "title": "Adicionar nova seção",
+            "text": "Selecione um tipo de seção:",
+            "lists": {
+                "title": "Lista(s)",
+                "text": "Destaque uma ou mais listas que você criou",
+                "noLists": "[Você ainda não criou nenhuma lista]"
+            },
+            "material": {
+                "title": "Material",
+                "text": "Destaque um dos seus materiais",
+                "noMaterials": "[Você ainda não enviou nenhum material]"
+            },
+            "savedLists": {
+                "title": "Listas salvas",
+                "text": "Destaque as listas que você salvou",
+                "noSavedLists": "[Você ainda não salvou nenhuma lista]"
+            },
+            "answeredQuestions": {
+                "title": "Perguntas respondidas",
+                "text": "Destaque as perguntas que você já respondeu",
+                "noAnswers": "[Você ainda não respondeu perguntas]"
+            },
+            "lastSentMaterials": {
+                "title": "Últimos enviados",
+                "text": "Destaque os últimos materiais que você enviou",
+                "noMaterials": "[Você ainda não enviou materiais]"
+            },
+            "singleList": {
+                "title": "Uma lista",
+                "text": "Destaque uma lista que você criou",
+                "noLists": "[Você ainda não criou nenhuma lista]"
+            },
+            "multipleLists": {
+                "title": "Várias listas",
+                "text": "Destaque mais de uma lista que você criou",
+                "noLists": "[Você ainda não criou nenhuma lista]"
+            }
+        },
+        "types": {
+            "lastSentMaterials": {
+                "title": "Últimos enviados",
+                "emptyMessage": "Nenhum conteúdo por aqui. Para essa seção ficar visível a outros estudantes, {0}.",
+                "emptyMessageLink": "envie materiais"
+            },
+            "savedLists": {
+                "title": "Listas Salvas",
+                "emptyMessage": "Essa seção está vazia. Salve uma lista para essa seção ser exibida em seu perfil."
+            },
+            "singleList": {
+                "linkText": "ver lista",
+                "emptyMessageListEmpty": "Essa lista está vazia. Salve um material para essa seção ser exibida em seu perfil.",
+                "emptyMessageListDeleted": "A lista dessa seção foi deletada e não há nada para mostrar a outros estudantes. Edite ou exclua a seção."
+            },
+            "answeredQuestions": {
+                "title": "Perguntas respondidas por {userName}",
+                "emptyMessage": "Você ainda não respondeu nenhuma pergunta. {0} para ajudar outros estudantes.",
+                "emptyMessageLink": "Comece a responder"
+            },
+            "multipleLists": {
+                "emptyMessage": "Esta seção está vazia. Salve materiais ou crie uma lista para essa seção ser exibida em seu perfil."
+            },
+            "material": {
+                "emptyMessage": "Seção vazia. Você excluiu o material destacado."
+            }
+        },
+        "limitSectionsReached": "Limite atingido - {maxSections} seções adicionadas",
+        "deleteSectionModal": {
+            "title": "Remover seção do seu perfil",
+            "text": "Não se preocupe, você poderá adicioná-la novamente sempre que quiser.",
+            "confirm": "Remover",
+            "success": "Seção removida do seu perfil"
+        }
+    },
+    "ranking": {
+        "title": "Ranking",
+        "you": "Você",
+        "points": "pontos",
+        "topLabel": "Top 100",
+        "filterTypes": {
+            "overall": "Geral",
+            "university": "Universidade",
+            "course": "Curso"
+        },
+        "boxGamificationInfo": {
+            "title": "Você ganha pontos quando alguém",
+            "scoreTypes": {
+                "saveMaterial": "Salvar seu material",
+                "likeAnswer": "Curtir sua resposta",
+                "likeMaterial": "Curtir seu material",
+                "likeQuestion": "Curtir sua pergunta",
+                "materialView": "Visualizar seu material"
+            }
+        },
+        "boxGamificationStatus": {
+            "message": "Faltam {points} pontos para você ganhar <strong>{bonusTime} de Premium"
+        }
+    },
+    "sent": {
+        "filterBy": "Filtrar por",
+        "search": "Buscar {type}",
+        "FILE": "Arquivo",
+        "QUESTION": "Perguntas",
+        "VIDEO": "Vídeos",
+        "ANSWER": "Respostas",
+        "PLANS": "Planos de Estudos",
+        "MATERIAL": "Materiais de Estudo",
+        "contentType": {
+            "1": {
+                "default": "{amount} material | {amount} materiais",
+                "search": "{amount} material encontrado | {amount} materiais encontrados"
+            },
+            "2": {
+                "default": "{amount} pergunta | {amount} perguntas",
+                "search": "{amount} pergunta encontrada | {amount} perguntas encontradas"
+            }
+        },
+        "empty": {
+            "search": {
+                "img": "notFound",
+                "title": "Ops! Não encontramos o que você está buscando",
+                "subtitle": "Tente outras palavras ou termos, a gente tem muita coisa por aqui",
+                "button": "Encontre materiais de estudo"
+            },
+            "material": {
+                "img": "sendMaterial",
+                "title": "Sem materiais contribuídos",
+                "subtitle": "Colabore você também, ajude outros estudantes",
+                "button": "Enviar material"
+            },
+            "question": {
+                "img": "noQuestion",
+                "title": "Sem perguntas",
+                "subtitle": "Tem alguma dúvida? Tire sua dúvida acadêmica",
+                "button": "Faça sua pergunta"
+            },
+            "noMaterial": {
+                "img": "noMaterial",
+                "title": "Nenhum material adicionado",
+                "subtitle": "Ainda não temos materiais aqui, busque por outros conteúdos",
+                "button": "Encontre materiais de estudo"
+            }
+        },
+        "file": "<strong>{amount}</strong> arquivo{s} {e}",
+        "pergunta": "<strong>{amount}</strong> pergunta{s} {e}",
+        "video": "<strong>{amount}</strong> vídeo{s} {e}",
+        "found": "encontrado{s}",
+        "meta": {
+            "file": "Arquivos enviados",
+            "question": "Perguntas enviadas",
+            "video": "Vídeos enviados",
+            "material": "Materiais enviados"
+        }
+    },
+    "profileSuggestedUsers": {
+        "title": "Perfis recomendados a você"
+    },
+    "tagPage": {
+        "share": "Recomendo essa tag que achei no Passei Direto",
+        "unexpectedError": "Erro inesperado. Tente novamente mais tarde",
+        "materials": {
+            "noMaterialTitle": "Nenhum material adicionado",
+            "noMaterialSubtitle": "Ainda não temos materiais aqui, busque por outro conteúdo.",
+            "loadMore": "Carregar mais"
+        }
+    },
+    "cancel": "Cancelar",
+    "userConfiguration": {
+        "title": "Dados Pessoais",
+        "changePictureButton": "Alterar foto",
+        "name": "Nome",
+        "password": "Senha",
+        "changePasswordButton": "Alterar senha",
+        "saveButton": "Salvar alterações",
+        "email": "Email",
+        "meta": {
+            "title": "Configurações"
+        },
+        "form": {
+            "input": {
+                "required": {
+                    "name": "Você deve informar um nome válido",
+                    "nameLength": "O tamanho máximo permitido para o campo nome é de 50 caracteres",
+                    "email": "E-mail inválido. Por favor, tente outro endereço."
+                },
+                "emailNotAvailable": "Endereço já cadastrado. Por favor, tente outro e-mail."
+            }
+        },
+        "toast": {
+            "success": "Alteração feita com sucesso",
+            "error": "Ops, houve uma falha. Por favor, tente novamente.",
+            "formInvalid": "Formulário incompleto, preencha antes de salvar."
+        },
+        "disablePremiumButton": "Desativar plano Premium",
+        "disableOrDeleteAccountButton": "Desativar ou excluir conta"
+    },
+    "passwordModal": {
+        "title": "Alterar Senha",
+        "oldPassword": "Senha atual",
+        "newPassword": "Nova senha",
+        "confirmNewPassword": "Confirmar nova senha",
+        "changePassword": "Alterar senha",
+        "errors": {
+            "oldPassword": "Por favor preencha sua senha.",
+            "newPassword": "Nova senha não foi digitada.",
+            "confirmPassword": "Confirmação de senha não foi digitada.",
+            "notEqualPassword": "A sua nova senha está diferente do campo de confirmação de senha."
+        },
+        "placeholders": {
+            "oldPassword": "Digite sua senha atual",
+            "newPassword": "Digite a nova senha",
+            "confirmPassword": "Confirme sua nova senha"
+        },
+        "toast": {
+            "notValid": "Campos não preenchidos corretamente",
+            "success": "Senha alterada com sucesso.",
+            "wrongPassword": "Senha atual não é válida",
+            "genericError": "Falha ao tentar alterar a senha."
+        }
+    },
+    "error": {
+        "tryAgain": "Error, tente novamente"
+    },
+    "downloadData": {
+        "title": "Seus dados no Passei Direto",
+        "subTitle": "Baixe seus dados quando quiser e veja as principais informações que usamos para possibilitar seu acesso à nossa rede.",
+        "downloadButton": "Baixar dados",
+        "unexpectedError": "Erro inesperado. Tente novamente mais tarde"
+    },
+    "disableOrDeleteAccount": {
+        "title": "Desativar ou excluir conta",
+        "subtitle": "O email dessa conta é <strong>{email}</strong>.",
+        "delete": {
+            "title": "Excluir conta",
+            "optionText": "<strong>Atenção: isso é definitivo.</strong> Ao excluir sua conta, você perderá todas as suas informações cadastradas no Passei Direto, incluindo seus materiais enviados à rede.",
+            "back": "Voltar",
+            "acknowledge": "Ok, entendi",
+            "missingReason": "Você deve informar um motivo pelo qual você está desativando a sua conta",
+            "form": {
+                "subtitle": "Uma pena você estar nos deixando",
+                "question": "Para que possamos melhorar, por favor nos diga o motivo pelo qual você está excluindo a sua conta:",
+                "options": {
+                    "anotherProfile": "Já tenho outro perfil aqui no Passei Direto",
+                    "graduated": "Já me formei e não precisarei mais estudar pelo Passei Direto",
+                    "tooManyEmails": "Recebo muitos e-mails e notificações do site",
+                    "personalInformation": "Tenho receio quanto a compartilhar minhas informações pessoais na internet",
+                    "cantFindMaterials": "Não encontrei o que precisava para meus estudos",
+                    "other": "Outros (Compartilhe conosco, será ótimo ter sua opinião)"
+                },
+                "confirmExclusion": "Confirmar exclusão"
+            }
+        },
+        "disable": {
+            "title": "Desativar conta",
+            "optionText": "<strong>Isso pode ser temporário</strong>. Você pode reativar sua conta logando com o e-mail da sua conta atual. Ao desativar conta, algumas informações do seu perfil podem ser perdidas.",
+            "subtitle": "Ao desativar sua conta, <strong>essa sessão será encerrada.</strong> Deseja mesmo continuar?",
+            "acknowledge": "Desativar conta"
+        },
+        "moreInfo": "Para mais informações, acesse nossa <strong><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://centraldeajuda.passeidireto.com/\">Central de Ajuda</a></strong>.",
+        "continue": "Continuar"
+    },
+    "configuration": {
+        "cancel": {
+            "cards": {
+                "faq": {
+                    "title": "Perguntas Frequentes"
+                },
+                "customerService": {
+                    "pulledAway": {
+                        "title": "Você tem alguma dúvida?",
+                        "subtitle": "Estamos aqui para te ajudar.",
+                        "button": "Sim, eu tenho"
+                    },
+                    "pushedAway": {
+                        "title": "Você também pode falar com a gente!",
+                        "subtitle": "Conte sua dificuldade e vamos te ajudar.",
+                        "button": "Falar com o time"
+                    },
+                    "movedAway": {
+                        "title": "Você também pode falar com a gente!",
+                        "subtitle": "Conte o que você queria achar por aqui e vamos te ajudar.",
+                        "button": "Falar com o time"
+                    },
+                    "annual": {
+                        "title": "Você tem alguma dúvida?",
+                        "subtitle": "Estamos aqui para te ajudar.",
+                        "button": "Sim, eu tenho"
+                    }
+                },
+                "discount": {
+                    "title": "Continue sendo Premium por R${discountPrice}!",
+                    "message": {
+                        "oneMonth": "Preço válido apenas para o próximo mês.",
+                        "multipleMonths": "Preço válido para os próximos {cycle} meses."
+                    },
+                    "button": "Oba, eu quero",
+                    "modal": {
+                        "title": "Premium por apenas R${discountPrice}/mês!",
+                        "message": {
+                            "oneMonth": "Oferta válida para o <strong>próximo mês</strong>. Após esse perídodo, volta a ser cobrado o valor de <span class=\"no-wrap\">{planPrice}</span>, com a renovação automática do seu Plano. Você pode cancelar quando quiser.",
+                            "multipleMonths": "Oferta válida para os próximos <strong>{cycle} meses</strong>. Após esse perídodo, volta a ser cobrado o valor de <span class=\"no-wrap\">{planPrice}</span>, com a renovação automática do seu Plano. Você pode cancelar quando quiser."
+                        },
+                        "button": "Aproveitar oferta"
+                    }
+                },
+                "pause": {
+                    "title": "Dê uma pausa por 2 meses.",
+                    "subtitle": "Seu plano só será reativado em {dayAndMonth} de {year}.",
+                    "subtitleAvoid": "Você só volta a pagar quando seu Plano for reativado.",
+                    "button": "Pausar Plano"
+                },
+                "parallelStudies": {
+                    "cardHobby": "Conheça novos hobbies com aulas de <strong>culinária e música</strong>",
+                    "cardInternship": "Atualize seu conhecimento para <strong>conquistar um estágio</strong>",
+                    "cardIdioms": "Aprenda outros <strong>idiomas com especialistas</strong>",
+                    "cardCivilServices": "Estude para <strong>concurso com diversas provas</strong>"
+                },
+                "testAB": {
+                    "bigNumbers": {
+                        "material": "<b>{count} materiais de</b><br/>{subjectName}",
+                        "qa": "<b>{count} perguntas e respostas</b><br/>de {subjectName}",
+                        "specialist": "<b>{count} especialistas</b><br/>em várias áreas de estudo"
+                    }
+                }
+            },
+            "title": "Cancelar Plano",
+            "featureHighlights": {
+                "title": "Estude sem limitações. Siga Premium.",
+                "expert": "materiais de especialistas",
+                "video": "videoaulas",
+                "qa": "perguntas respondidas"
+            },
+            "materialRecommendation": {
+                "title": "Estude sem limitações. Siga Premium.",
+                "titleABTest": "Você quer mesmo cancelar?",
+                "subtitleABTest": "Há milhões de materiais para facilitar seus estudos. Veja alguns deles:",
+                "pauseSuggestion": {
+                    "subtitle": "Pause sua assinatura nas férias. Não haverá nenhuma cobrança nesse período."
+                },
+                "bigNumbers": {
+                    "subtitle": "O Premium garante vários materiais do seu interesse:"
+                }
+            },
+            "buttons": {
+                "cancel": "Quero cancelar",
+                "continue": "Ainda quero cancelar",
+                "annualContinue": "Confirmar cancelamento",
+                "recommendationContinue": "Ainda quero cancelar",
+                "optionsContinue": "Continuar",
+                "stop": "Manter meu plano"
+            },
+            "options": {
+                "covidAway": "Tive mudanças na rotina devido ao coronavírus",
+                "boughtAway": "Preciso economizar",
+                "seasonality": "Não estou usando a rede no momento",
+                "pulledAway": "Estou estudando por outros sites",
+                "pushedAway": "Tive dificuldades para usar a rede de estudos",
+                "movedAway": "Encontrei poucos materiais interessantes",
+                "anotherReasons": "Outros motivos"
+            },
+            "cancelOptions": {
+                "title": "Poxa, conta para gente: por que você quer cancelar?"
+            },
+            "covidAway": {
+                "title": "Ah, vamos sentir sua falta! :/ Antes de você ir, temos um convite para te fazer:",
+                "annualTitle": "Ah, vamos sentir sua falta, viu? :/ Antes de ir..."
+            },
+            "boughtAway": {
+                "title": "Ah, vamos sentir sua falta! :/ Para te ajudar, temos dois convites:",
+                "noPauseTitle": "Ah, vamos sentir sua falta! :/ Para te ajudar, temos um convite:",
+                "annualTitle": "Ah, vamos sentir sua falta, viu? :/ Antes de ir..."
+            },
+            "seasonality": {
+                "title": "Opa, para você ficar, temos dois convites especiais:",
+                "noPauseTitle": "Opa, para você ficar, temos um convite especial:",
+                "annualTitle": "Ah, vamos sentir sua falta, viu? :/ Antes de ir..."
+            },
+            "pulledAway": {
+                "title": "Ah, vamos sentir sua falta! :/ Antes de você ir, temos um convite para te fazer:",
+                "noDiscountTitle": "Ah, vamos sentir sua falta, viu? :/ Antes de ir..."
+            },
+            "pushedAway": {
+                "title": "Ah, lamentamos por isso. :/ Para te ajudar, separamos alguns conteúdos que podem ser úteis para você."
+            },
+            "movedAway": {
+                "title": "Ah, lamentamos por isso. :/ Para te ajudar, separamos alguns conteúdos que podem ser úteis para você."
+            },
+            "generic": {
+                "title": "Vamos sentir sua falta! Você pode voltar sempre que quiser, ok? Antes de você partir:"
+            },
+            "cancelConfirmationModal": {
+                "title": "Quer mesmo confirmar o cancelamento?",
+                "message": "Estamos tristes com a sua partida :/",
+                "titleFreeTrial": "Sua opinião é essencial pra gente.",
+                "messageFreeTrial": "Por favor, conte por que decidiu cancelar o Premium.",
+                "inputFreeTrialReason": "Conte aqui o motivo do cancelamento (opcional)",
+                "button": {
+                    "cancel": "Agora não",
+                    "confirm": "Confirmar cancelamento"
+                }
+            },
+            "pulledAwayCancelConfirmationModal": {
+                "title": "Estamos tristes com a sua partida :(",
+                "message": "Antes de ir, pode responder estas perguntas, por favor?",
+                "input": {
+                    "company": "Qual serviço você vai usar para estudar?",
+                    "reason": "Por quê?"
+                },
+                "button": {
+                    "cancel": "Manter meu plano",
+                    "confirm": "Confirmar cancelamento"
+                }
+            },
+            "parallelStudies": {
+                "title": "Você quer mesmo cancelar?",
+                "subtitle": "Nas férias, o Premium mantém seu aprendizado em dia com outros conteúdos."
+            }
+        },
+        "modal": {
+            "removeCard": {
+                "title": "Excluir",
+                "description": "Deseja excluir o <b>cartão selecionado?</b>",
+                "alert": "Esta ação não pode ser desfeita."
+            },
+            "buttons": {
+                "delete": "Excluir"
+            }
+        },
+        "toast": {
+            "addCard": {
+                "success": "Cartão adicionado. Agora seus pagamentos serão feitos nele.",
+                "error": "Não foi possível adicionar o cartão.",
+                "unavailable": "Opção indisponível."
+            },
+            "changeCard": {
+                "success": "Cartão alterado. Agora seus pagamentos serão feitos nele.",
+                "error": "Não foi possível alterar o cartão."
+            },
+            "removeCard": {
+                "success": "Cartão removido.",
+                "error": "Não é possível excluir este cartão."
+            }
+        },
+        "adyen": {
+            "changeCreditCard": {
+                "title": "Seus cartões",
+                "newCard": "Adicionar novo cartão"
+            },
+            "card": {
+                "holderName": {
+                    "title": "Nome impresso no cartão*",
+                    "placeholder": "Ex: JOAO SILVA"
+                },
+                "cpf": {
+                    "title": "CPF*"
+                }
+            }
+        },
+        "changeCreditCard": {
+            "title": "Alterar cartão",
+            "subtitle": "Este cartão será utilizado para cobrança dos seus planos",
+            "buttons": {
+                "cancel": "Cancel",
+                "save": "Adicionar cartão"
+            },
+            "invalidCardMessage": "Dados do cartão inválidos."
+        },
+        "common": {
+            "pauseModal": {
+                "title": "Pausar Plano Premium",
+                "message": "Seu acesso Premium vai ficar pausado <strong>entre {beginPauseDate} e {endPauseDate}</strong>. Durante esse período, você também não recebe cobranças.",
+                "button": "Confirmar pausa"
+            },
+            "cancelButton": "Cancelar plano",
+            "pauseButton": "Pausar plano"
+        },
+        "loadError": {
+            "title": "Ops! Algo deu errado, desculpe-nos pelo transtorno.",
+            "message": "Volta daqui a pouquinho e tente novamente!",
+            "button": "Tentar agora"
+        },
+        "plans": {
+            "noneActive": {
+                "title": "Você ainda não é um estudante Premium.",
+                "titleOneClick": "Que tal voltar a ser Premium?",
+                "titleFreeTrial": "Você tem {trialPeriod} dias de Premium grátis",
+                "message": "Estude com tudo o que você precisa: materiais compartilhados ilimitados, videoaulas, resumos e muito mais.",
+                "messageOneClick": "Reative sua assinatura e acesse todos os materiais e benefícios da nossa rede.",
+                "messageFreeTrial": "Quer acessar de graça todos os materiais e benefícios exclusivos da nossa rede? Sim, você pode! Experimente agora o Premium grátis por {trialPeriod} dias.",
+                "button": "Assine o Premium",
+                "buttonOneClick": "Voltar a ser Premium",
+                "buttonFreeTrial": "Experimentar grátis"
+            },
+            "unpaid": {
+                "bankslip": {
+                    "title": "Seu plano Passei Direto Premium Anual ainda não foi ativado",
+                    "message": "Se você já pagou seu boleto não se desespere, ele pode demorar até 3 dias úteis para ser processado.",
+                    "button": "Clique aqui para pagar o boleto"
+                },
+                "pix": {
+                    "title": "Seu Plano Passei Direto Premium Anual ainda não foi renovado",
+                    "message": "Pague agora seu PIX para não perder o Premium e continuar acessando ilimitado!",
+                    "button": "Clique aqui para pagar"
+                }
+            },
+            "failedCharge": {
+                "title": "O pagamento do plano {planName} não pôde ser concluído",
+                "message": "Um erro aconteceu e não pudemos processar o pagamento do seu plano Premium. Entre em contato com sua operadora ou tente novamente com outro cartão de crédito.",
+                "button": "Clique aqui para alterar cartão"
+            },
+            "plan": "Plano",
+            "iTunes": {
+                "plan": "Premium",
+                "paymentTitle": "Forma de pagamento",
+                "paymentDescription": "Pagamento via iTunes Store, para alterar seus dados formais de pagamento ou cancelar sua assinatura, visite a ",
+                "paymentItunesLink": "sua conta no iTunes"
+            },
+            "cancelledPlan": {
+                "title": "{planDescription} cancelado",
+                "message": "Seu plano foi cancelado em {cancelDate}, você ainda terá acesso até o dia {expiryDate}."
+            },
+            "activePlan": {
+                "message": "Conteúdo exclusivo, ferramentas de estudo e acesso ilimitado aos materiais compartilhados.",
+                "pricing": "R$ {price}/{period}",
+                "pricingNonRenewable": "R$ {price}",
+                "nextCharge": {
+                    "title": "Próxima cobrança",
+                    "installments": " (em {installments}x)"
+                },
+                "remainingDiscountCycles": "mês restante de desconto | meses restantes de desconto",
+                "bankSlipDue": "Seu boleto vence em {date}",
+                "pixDue": "Seu PIX vence em {date}",
+                "paymentMethod": {
+                    "CreditCard": "Pagamento em cartão",
+                    "BankSlip": "Pagamento em boleto",
+                    "Pix": "Pagamento em Pix",
+                    "GooglePay": {
+                        "title": "Plano",
+                        "titlePlan": "Premium",
+                        "messagePlan": "Conteúdo exclusivo, ferramentas de estudo e acesso ilimitado aos materiais compartilhados.",
+                        "titlePaymentMethod": "Forma de pagamento",
+                        "messagePaymentMethod": "Pagamento via Play Store, para alterar seus dados e formas de pagamento ou cancelar sua assinatura, ",
+                        "messageUrl": "https://play.google.com/store/account/subscriptions",
+                        "messageTextUrl": "visite a sua conta na Play Store."
+                    }
+                },
+                "expired": "Expirado em"
+            },
+            "activeCard": {
+                "activeSubscription": {
+                    "title": "Dados do cartão",
+                    "message": "Os pagamentos serão realizados pelo seguinte cartão de crédito"
+                },
+                "noActiveSubscription": {
+                    "title": "Seus cartões",
+                    "message": "Os últimos pagamentos foram realizados pelo seguinte cartão de crédito"
+                },
+                "editCard": "Alterar cartão"
+            },
+            "paymentHistory": {
+                "title": "Histórico de pagamento"
+            },
+            "gamification": {
+                "title": "Premium",
+                "value": "Grátis",
+                "expirationDate": "Válido até {date}",
+                "message": "Premiação por Gamificação",
+                "available": {
+                    "title": "Bônus por gamificação",
+                    "message": "Você tem {date} de Premium grátis.",
+                    "helpMessage": "Saiba como utilizar"
+                },
+                "pauseModal": {
+                    "title": "Não quer usar seu bônus Premium agora? Tudo bem!",
+                    "subtitle": "Você pode pausar por <strong> 2 meses </strong> e usá-lo depois :)",
+                    "bodyTitle": "Durante a pausa:",
+                    "noPremiumContent": "Você não terá acesso aos conteúdos e ferramentas Premium",
+                    "contentRestriction": "Poderá visualizar até 3 materiais compartilhados por mês",
+                    "noPauseInterval": "Não poderá pausar novamente nos próximos 6 meses",
+                    "info": "",
+                    "helpMessage": "Saiba mais",
+                    "buttonLabel": "Pausar por 2 meses"
+                }
+            },
+            "freeTrial": {
+                "cancelled": {
+                    "title": "{description} cancelado",
+                    "message": "Plano cancelado no dia {cancelDate}. Sua experiência Premium vai até {expiryDate}."
+                },
+                "active": {
+                    "message": "Conteúdo exclusivo, ferramentas de estudo e acesso ilimitado aos materiais compartilhados.",
+                    "flag": "Período Gratuito",
+                    "nextCharge": "Valor cobrado após {expiryDate}:",
+                    "pricing": "R$ {price}/{period}",
+                    "paymentMethod": {
+                        "CreditCard": "Pagamento em cartão",
+                        "BankSlip": "Pagamento em boleto"
+                    }
+                }
+            },
+            "common": {
+                "status": "Status do plano",
+                "pauseButton": "Pausar e usar depois",
+                "pauseMessage": "Seu plano será pausado dia {date}",
+                "pausedMessage": "Seu plano está pausado desde {date}",
+                "reactivateMessage": "Reativação automática a partir de {date}"
+            },
+            "period": {
+                "monthly": "mês",
+                "yearly": "ano",
+                "quarterly": "trimestre",
+                "semiannual": "semestre"
+            },
+            "upsell": {
+                "title": "Ganhe <span class=\"strong--orange\">8 meses</span> de Premium grátis!",
+                "text": "Mude seu plano para o Premium Anual e garanta todos os benefícios que já tem hoje, pagando menos e estudando o ano inteiro.",
+                "button": "Mudar para Premium Anual",
+                "monthly": "Mensal",
+                "yearly": "Anual",
+                "benefits": {
+                    "equivalentTo": "Equivalente a <strong>8 meses grátis</strong>",
+                    "saving": "Economia de <strong>{discountedPrice}</strong>",
+                    "monthlyPrice": "{price}/mês = {fullPrice}/ano",
+                    "fullPrice": "{fullPrice}/ano",
+                    "finalPrice": " = <b>{finalPrice}</b>/ano"
+                }
+            },
+            "retry": {
+                "title": "Ops! Houve uma falha no pagamento do {planDescription}",
+                "text": "Seu pagamento com cartão <strong>{brand} - {finalNumber}</strong> não deu certo. Tente novamente ou adicione um novo cartão, para continuar estudando com todas as vantagens do Plano Premium.",
+                "buttons": {
+                    "tryAgain": "Tentar novamente",
+                    "addNewCard": "Adicionar novo cartão"
+                }
+            }
+        },
+        "title": "Configurações de conta",
+        "help": "Central de ajuda",
+        "tabAccount": "Minha conta",
+        "tabPlans": "Meu plano",
+        "tabNotifications": "E-mails"
+    },
+    "notifications": {
+        "sectionsTitles": {
+            "emails": "E-mails"
+        },
+        "emailOptions": {
+            "all": {
+                "label": "Receber todos os e-mails",
+                "description": "Recomendações de materiais, comunicação de novas ferramentas, novidades da rede e promoções. Você também recebe e-mails com materiais para ver no aplicativo e notificação de novos seguidores"
+            },
+            "goodStuff": {
+                "label": "Apenas os e-mails importantes",
+                "description": "Somente avisos de novos seguidores, notificações mais relevantes e e-mails com materiais para ver no aplicativo"
+            },
+            "none": {
+                "label": "Não receber nada",
+                "description": "Exceto e-mails transacionais de compra, cancelamento ou troca de senha"
+            }
+        },
+        "email": {
+            "sucess": "Configuração de e-mail alterada"
+        },
+        "warnText": "* Ao selecionar uma das opções, o sistema pode levar até 48h para fazer a alteração. Nesse período você ainda poderá receber e-mails do Passei Direto."
+    },
+    "mySubjects": {
+        "tabs": {
+            "following": "Minhas disciplinas",
+            "explore": "Explorar novas",
+            "followingNewHeader": "Disciplinas seguidas",
+            "exploreNewHeader": "Disciplinas de seu interesse"
+        },
+        "following": {
+            "otherSubjects": "Outras disciplinas recomendadas para você"
+        },
+        "explore": {
+            "search": "Buscar disciplina",
+            "noSubjectTitle": "Ops! Não encontramos a disciplina que você está buscando",
+            "noSubjectSubtitle": "Busque outras palavras ou termos, a gente tem muita coisa por aqui"
+        },
+        "metas": {
+            "following": "Minhas disciplinas | Passei Direto",
+            "explore": "Explorar novas disciplinas | Passei Direto",
+            "interested": "Disciplinas de seu interesse | Passei Direto"
+        },
+        "emptyFollowers": {
+            "title": "Nenhuma disciplina por aqui :(",
+            "subtitle": "Clique no botão abaixo para descobrir novas disciplinas",
+            "button": "Disciplinas de seu interesse"
+        }
+    },
+    "listSection": {
+        "title": "Estude com listas de materiais",
+        "subtitle": "Conteúdos organizados por assunto e criados por Produtores Verificados",
+        "seeAll": "VER TUDO"
+    },
+    "subjectPage": {
+        "share": "Recomendo essa disciplina que achei no Passei Direto",
+        "tabsNewSubject": {
+            "materials": "Materiais",
+            "general": "Geral",
+            "list": "Listas",
+            "questions": "Perguntas e Respostas"
+        },
+        "materialCount": "0 materiais | 1 material | {count} materiais",
+        "followerCount": "0 seguidores | 1 seguidor | {count} seguidores",
+        "unexpectedError": "Erro inesperado. Tente novamente mais tarde",
+        "communityMaterials": {
+            "titleRecommended": "Recomendados pra você",
+            "filterTitle": "Outros materiais que você pode gostar",
+            "titleRecent": "Materiais recentes",
+            "noMaterialTitle": "Nenhum material adicionado",
+            "noMaterialSubtitle": "Ainda não temos materiais aqui, busque por outro conteúdo.",
+            "loadMore": "Carregar mais",
+            "searchCta": {
+                "title": "Encontre mais materiais de",
+                "subtitle": "Busque materiais filtrando pela disciplina e mais!",
+                "button": "Buscar por mais materiais"
+            },
+            "subjectFilter": {
+                "filter": "Filtro(s):",
+                "noMaterialFoundTitle": "Ops! Não encontramos o que você buscou",
+                "noMaterialFoundSubtitle": "Que tal usar outros filtros para achar conteúdos novamente?"
+            },
+            "continueStudyingTitle": "Parecido com o que você viu recentemente",
+            "continueStudyingSubtitle": "Sugestões baseadas nos materiais que você estava estudando",
+            "producerMaterialTitle": "Aprenda com Produtores Verificados",
+            "producerMaterialSubtitle": "Resumos, exercícios e outros materiais produzidos por especialistas",
+            "newMaterialTitle": "Lançamentos recomendados para você",
+            "newMaterialSubtitle": "Materiais adicionados recentemente, com base no que você andou lendo",
+            "continueStudying": "Continue estudando"
+        },
+        "pageLoadMaterial": {
+            "title": "Material buscado"
+        },
+        "list": {
+            "noListsTitle": "Nenhuma lista adicionada",
+            "noListsSubtitle": "Ainda não temos listas aqui, busque por outro conteúdo.",
+            "loadMore": "Carregar mais",
+            "recent": "Listas recentes",
+            "spotlight": "Em destaque"
+        },
+        "featureProducerSidebarBox": {
+            "title": "DESTAQUE DESTA DISCIPLINA",
+            "name": {
+                "title": "Especialista"
+            },
+            "more": "Ver materiais deste perfil"
+        },
+        "tabs": {
+            "communityMaterials": "Materiais",
+            "list": "Listas"
+        }
+    },
+    "pdAds": {
+        "BumperAd": {
+            "countdownMessage": "Fechar | Fechar em <strong>{count}</strong> | Fechar em <strong>{count}</strong>"
+        }
+    },
+    "ads": {
+        "external": {
+            "title": "Material Patrocinado"
+        }
+    },
+    "pdFeatureProducerBetweenPagesAd": {
+        "title": "Conteúdo Relacionado"
+    },
+    "pdFeatureProducerSideAd": {
+        "detailsTitle": "Destaque",
+        "profileButtonLabel": "Ver perfil"
+    },
+    "pdInternalAd": {
+        "adPageNotFount": {
+            "title": "Materiais que podem interessar"
+        },
+        "adBetweenPages": {
+            "title": "Conteúdo Relacionado"
+        }
+    },
+    "preview": {
+        "sidebarRecommendation": {
+            "related": "materiais recomendados para você"
+        },
+        "sidebar": {
+            "materialCount": "material | materiais",
+            "and": "e",
+            "followerCount": "seguidor | seguidores",
+            "created": "Criador por:",
+            "removeList": "Remover da Lista",
+            "emptyListText": "Sem materiais por aqui",
+            "recommendation": {
+                "title": "Recomendados",
+                "subtitle": "Com base nos materiais da sua lista"
+            },
+            "tooltip": {
+                "title": "Salve outras listas no seu perfil",
+                "body": "e tenha acesso rápido a todo conteúdo que precisa"
+            },
+            "allFilters": "Todas",
+            "keepStudying": "Continue estudando",
+            "subjectsRecommendation": "Materias relacionados",
+            "trendingMaterials": "Materiais em alta na rede"
+        }
+    },
+    "pdCategorizationBetweenPages": {
+        "title": "Quais assuntos você viu neste material?",
+        "helpText": "Sua resposta nos ajuda a melhorar a recomendação dos conteúdos para você.",
+        "noTopic": "Nenhum dos assuntos"
+    },
+    "viewer": {
+        "comments": {
+            "comment": "comentário | comentários",
+            "commentTitle": "Deixe seu comentário",
+            "newComment": "Escreva aqui",
+            "createComment": "Comentar",
+            "createReply": "Responder",
+            "postSuccess": "Comentário adicionado com sucesso",
+            "duplicatedComment": "Comentário duplicado. Este comentário é idêntico ao último postado. Tente algo diferente ou apague o último comentário.",
+            "charCountLimitReached": "Limite atingido",
+            "delete": "Excluir",
+            "removeModal": {
+                "title": "Excluir comentário",
+                "message": "Tem certeza? Isso não pode ser desfeito.",
+                "success": "Comentário removido com sucesso"
+            },
+            "removeReplies": {
+                "title": "Esse comentário contém respostas",
+                "message": "Ao excluir esse comentário, <strong>você exclui todas as respostas relacionadas a ele</strong>, incluindo as de outros estudantes. Tem certeza disso?"
+            },
+            "replyingTo": "Respondendo",
+            "viewPreviousReplies": "Ver respostas anteriores  (:current de :total)",
+            "loadMoreReplies": "Carregar mais respostas",
+            "hideReplies": "Ocultar respostas"
+        },
+        "materialNotes": {
+            "firstNoteCta": "Crie suas anotações de estudo",
+            "createNoteButton": "Criar anotação",
+            "deleteNoteConfirm": "Deseja apagar esta anotação?",
+            "deleteAction": "Excluir",
+            "deleteHighlightConfirmTitle": "Excluir marcação e anotações",
+            "deleteHighlightConfirmMessage": "Ao apagar esta marcação, <b>você também exclui todas as anotações nela.</b> Tem certeza disso?",
+            "deleteNoteConfirmTitle": "Excluir anotação",
+            "deleteNoteConfirmMessage": "Tem certeza que quer excluir a anotação selecionada? Esta ação não pode ser desfeita.",
+            "maxHighlightsError": "Máximo de 20 marcações por página do material",
+            "maxNotesError": "Máximo de 5 anotações por marcação",
+            "addHightlight": "Marcar",
+            "addNote": "Anotar",
+            "removeNote": "Desmarcar",
+            "viewNotes": "Ver anotações"
+        },
+        "backButtonLabel": "Voltar",
+        "categories": {
+            "textbook": "Livro",
+            "exam": "Prova",
+            "homework": "Exercício",
+            "lecture": "Aula",
+            "summary": "Resumo",
+            "assignment": "Trabalho",
+            "other": "Outros"
+        },
+        "emptyState": {
+            "userList": {
+                "title": "Adicione o primeiro material desta lista",
+                "subtitle": "Salve materiais recomendados ou busque outros conteúdos e</br> clique em <i class=\"pd-icon save inline\"></i> para salvar em uma lista"
+            },
+            "otherUserList": {
+                "title": "Sem materiais por aqui",
+                "subtitle": "Busque outro conteúdo para continuar seus estudos"
+            },
+            "buttonLabel": "Veja materiais recomendados"
+        },
+        "infobar": {
+            "materialTimeLabel": "há {materialTimeElapsed}"
+        },
+        "toolbar": {
+            "downloadApp": "Veja este material no seu celular",
+            "report": "denunciar",
+            "openSidebarTooltip": "<strong>Veja aqui todos os materiais</strong> da lista sempre que precisar",
+            "print": {
+                "limitReached": "Você já atingiu o limite de {limit} materiais impressos neste mês",
+                "materialUnavailable": "Ops! Ocorreu um erro e este material ainda não está disponível para imprimir"
+            },
+            "printOnboardingTooltip": {
+                "title": "Novidade Premium",
+                "print": "Agora você pode imprimir seus materiais favoritos",
+                "download": "Agora você pode baixar seus materiais favoritos"
+            }
+        },
+        "question": {
+            "answerFrame": {
+                "answer": "resposta | respostas",
+                "filters": {
+                    "bestRating": "Mais Votadas",
+                    "newest": "Recentes"
+                },
+                "premium": {
+                    "headerInfo": "<span class=\"split\"> | </span>contém resposta de <span class=\"specialist\">Especialistas</span>",
+                    "specialist": " • Especialista"
+                },
+                "toast": {
+                    "success": "Sua denúncia foi enviada com sucesso"
+                }
+            },
+            "removeModal": {
+                "title": "Excluir",
+                "message": "Deseja excluir a resposta selecionada? <p><strong> Essa ação não pode ser desfeita! </strong></p>",
+                "success": "Resposta removida com sucesso",
+                "confirmLabel": "Excluir"
+            },
+            "answerInput": {
+                "sendButton": "Enviar uma resposta",
+                "placeholder": "Escreva sua resposta aqui",
+                "answerSent": "Resposta adicionada com sucesso",
+                "duplicatedAnswer": "Resposta duplicada. Esta resposta é idêntica à última postada. Tente algo diferente ou apague a última resposta."
+            },
+            "emptyState": {
+                "title": "Ainda não temos respostas aqui, seja o primeiro!",
+                "subtitle": "Tire dúvidas e ajude outros estudantes"
+            }
+        }
+    },
+    "materialWithoutCR": {
+        "source": "Conhecimento é prevenção: tornamos livre o acesso aos conteúdos sobre saúde e Coronavírus."
+    },
+    "ContentLimitationModal": {
+        "notice": {
+            "titleOne": "Veja {limitCount} conteúdo grátis por mês!",
+            "titleMoreThanOne": "Veja até {limitCount} conteúdos grátis por mês!",
+            "subTitle": "Acreditamos no poder da colaboração: compartilhe materiais ou responda perguntas para acumular pontos e <strong>ganhar acesso ilimitado grátis.</strong>",
+            "button": "Ok, ir para o material"
+        },
+        "basic": {
+            "textOne": "<strong class=\"text-one-material\">Este é seu conteúdo grátis do mês.</strong> ",
+            "textMoreThanOne": "Conteúdo <strong class=\"number\">{consumedContent}</strong> de <strong class=\"number\">{limitCount}</strong> este mês. ",
+            "subText": "Para estudar ilimitado,",
+            "subTextFreeTrial": "Para ter acesso ilimitado,",
+            "points": "ganhe pontos",
+            "colaborate": "colabore",
+            "or": "ou",
+            "bePremium": "assine o Premium",
+            "reactivatePremium": "volte a ser Premium",
+            "freeTrial": "experimente grátis o Premium"
+        },
+        "premium": {
+            "text": "Aproveite! Agora só você que é <strong>Premium</strong> pode ver <strong>mais de {limitCount} materiais por mês</strong>. <a class=\"more\" href=\"https://www.passeidireto.com/blog/passei-direto/premium-para-quem-colabora/\" target=\"_blank\" >Entenda.</a>"
+        },
+        "trending": {
+            "title": "Você descobriu um material em alta."
+        }
+    },
+    "materialViewer": {
+        "file": {
+            "fileWithoutViewer": {
+                "processingMessage": "Esse material ainda não está disponível para ser visualizado",
+                "unavailable": "Material temporariamente indisponível",
+                "download": {
+                    "message": "Para visualizar este material é necessário fazer o download",
+                    "button": "Download"
+                }
+            }
+        }
+    },
+    "contentBetweenPages": {
+        "shortPreview": {
+            "title": "Gostando deste material?",
+            "content": {
+                "description": "Conheça e escolha o seu Plano Premium para ler o conteúdo completo!",
+                "pages": "{pages} das {maxPages} páginas"
+            },
+            "cta": {
+                "freeTrial": "Experimente o<br/> <strong>Premium agora</strong>",
+                "becomePremium": "<b>Assine o Premium</b><br/> para acessar ilimitado",
+                "button": {
+                    "freeTrial": "Experimentar grátis",
+                    "becomePremium": "Conhecer Planos"
+                }
+            }
+        },
+        "retryPeriod": {
+            "content": "<span style=\"font-size: 15px; font-weight: 600;\">Falha no pagamento do seu Premium com o {brand} - {lastThreeNumbers}</span>",
+            "link": "Tentar pagar novamente"
+        }
+    },
+    "ContentBetweenPagesBrandAwareness": {
+        "shortPreview": {
+            "title": "Você ganhou 1 material para experimentar grátis!",
+            "description": "Desbloqueie e leia este conteúdo completo.",
+            "button": "Desbloquear material"
+        },
+        "confirmationModal": {
+            "title": "Você quer desbloquear seu material grátis agora?",
+            "action": "Sim, eu quero!",
+            "declineButton": "Agora não",
+            "description": "O conteúdo completo vai ficar disponível para você durante 1h."
+        }
+    },
+    "fileAutoRedirect": {
+        "title": "Você também vai gostar desse material!",
+        "cancel": "Agora não",
+        "viewMaterial": "Ver material",
+        "redirecting": "Redirecionando em {currentCooldown}..."
+    },
+    "FileContentFollow": {
+        "materialCount": "materiais compartilhados"
+    },
+    "FileLikeAndFollowIncentive": {
+        "title": "E aí, curtiu este material?",
+        "subTitle": "Ajude a incentivar outros estudantes a melhorar o conteúdo",
+        "like": "Curti",
+        "dislike": "Não curti",
+        "share": "Compartilhar"
+    },
+    "FileViewerNavigator": {
+        "pag": "de <strong>{pageCount} páginas</strong>"
+    },
+    "printModal": {
+        "title": {
+            "print": "Imprimir material",
+            "download": "Baixar material"
+        },
+        "subtitles": {
+            "hasMoreThanPageLimit": {
+                "print": "Imprima este conteúdo <strong>quantas vezes quiser neste mês.</strong> Escolha {pageLimit} páginas por vez:",
+                "download": "Baixe este conteúdo <strong>quantas vezes quiser neste mês.</strong> Escolha {pageLimit} páginas por vez:"
+            },
+            "hasLessThanPageLimit": {
+                "print": "Imprima este conteúdo <strong>quantas vezes quiser neste mês.</strong>",
+                "download": "Baixe este conteúdo <strong>quantas vezes quiser neste mês.</strong>"
+            }
+        },
+        "pages": "Páginas",
+        "to": "até",
+        "cpfMessage": {
+            "print": "Este conteúdo pode ser protegido por direitos autorais. Precisamos imprimir seu CPF no material.",
+            "download": "Este conteúdo pode ser protegido por direitos autorais. Precisamos inserir seu CPF no material."
+        },
+        "printCountMessage": "<strong class=\"number\">{count}</strong> de <strong class=\"number\">{limit}</strong> <strong>materiais</strong> por mês",
+        "alreadyPrintedMessage": {
+            "print": "Este material já foi selecionado e pode ser impresso <strong>várias vezes este mês</strong>",
+            "download": "Este material já foi selecionado e pode ser baixado <strong>várias vezes este mês</strong>"
+        },
+        "buttons": {
+            "print": "Imprimir",
+            "download": "Baixar"
+        },
+        "validations": {
+            "maxPages": "{pages} págs por vez",
+            "minValue": "Valor mínimo: 1",
+            "maxValue": "Ver total: {value}",
+            "interval": "Ver intervalo",
+            "cpfRequired": "Insira seu CPF para continuar",
+            "invalidCpf": "CPF inválido"
+        }
+    },
+    "printFile": {
+        "disclaimer": {
+            "print": "Impresso por {name}{ellipsis}, CPF {cpf} para uso pessoal e privado. Este material pode ser protegido por direitos autorais e não pode ser reproduzido ou repassado para terceiros. {date}",
+            "download": "Material baixado por {name}{ellipsis}, CPF {cpf} para uso pessoal e privado. Este material pode ser protegido por direitos autorais e não pode ser reproduzido ou repassado para terceiros. {date}"
+        }
+    },
+    "printMixin": {
+        "limitationPremium": "Imprima este material quantas vezes quiser.",
+        "limitReached": {
+            "print": "Você já atingiu o limite de {limit} materiais impressos neste mês",
+            "download": "Você já atingiu o limite de {limit} materiais baixados neste mês"
+        },
+        "materialUnavailable": {
+            "print": "Ops! Ocorreu um erro e este material ainda não está disponível para imprimir",
+            "download": "Ops! Ocorreu um erro e este material ainda não está disponível para baixar"
+        }
+    },
+    "vimeoWithoutViewer": {
+        "title": "esse material em breve estará disponível para ser visualizado"
+    },
+    "video": {
+        "message": ""
+    },
+    "confirmationBox": {
+        "title": "Quer receber e-mails semanais com o desempenho dos seus materiais?",
+        "subTitle": "Enviaremos para {userEmail}",
+        "changeEmail": "Alterar meu e-mail",
+        "confirmation": "Eu quero"
+    },
+    "upload": {
+        "tabTitle": "Enviar material | Passei Direto",
+        "selectUpload": {
+            "title": "Compartilhe materiais",
+            "subtitle": "Arraste e solte aqui os arquivos",
+            "otherUpload": "ou escolha outras formas de upload"
+        },
+        "uploadOptions": {
+            "computer": "Computador",
+            "dropbox": "Dropbox",
+            "gdrive": "Google Drive",
+            "yt": "Youtube",
+            "vimeo": "Vimeo"
+        },
+        "materials": {
+            "status": "<strong>{CountSentMaterials}</strong> de <strong>{MaterialCount}</strong> enviados preencha os campos para enviar"
+        },
+        "benefits": {
+            "title": "Benefícios de enviar material",
+            "group": "Seus materiais podem ajudar +16 milhões de estudantes",
+            "iteration": "Faça upload de seus materiais e conquiste interações",
+            "trophy": "Ganhe pontos com ações em seus materiais e torne-se Premium",
+            "share": "Compartilhe conhecimento e colabore com outros estudantes"
+        },
+        "overlay": {
+            "title": "Solte para enviar os arquivos para o Passei Direto",
+            "subtitle": "Não se preocupe, depois vamos deixar você escrever a descrição,<br />mudar o título, ligar a uma disciplina ou atribuir tags ;)"
+        },
+        "SubjectAutocomplete": {
+            "noItemsNoInput": "Digite para procurar",
+            "noItems": "Nenhum resultado encontrado",
+            "searching": "Buscando ...",
+            "required": "Selecione uma das opções"
+        },
+        "errors": {
+            "invalidFormat": "Formato de arquivo inválido",
+            "duplicatedMaterial": "Você já enviou este <a href=\"{urlPath}/{id}\" target=\"_blank\">material</a>. Tente um conteúdo diferente.",
+            "duplicatedFile": "Você já enviou este arquivo. Tente um conteúdo diferente.",
+            "unknown": "Error ao fazer upload.",
+            "maxFileSize": "O arquivo precisa ter menos de {fileSize}.",
+            "invalidExtension": "Esta extensão não é válida. Selecione outro arquivo."
+        },
+        "onLeaveRoute": "Pretende sair da página? É possível que as alterações feitas não tenham sido salvas."
+    },
+    "producerCampaign": {
+        "title": "Envie materiais e ganhe dinheiro",
+        "secondTitle": "na maior rede de estudos do Brasil",
+        "subTitle": "Alcance mais estudantes e impacte vidas com <wbr> o seu conhecimento. <strong>É Grátis!</strong>",
+        "confirmation": "Quero ser produtor verificado",
+        "confirmationResponsive": "Saiba mais"
+    },
+    "newPostBox": {
+        "shareKnowledge": "Compartilhe um conhecimento"
+    },
+    "newPostModal": {
+        "title": "Criar publicação",
+        "publishButton": "Publicar",
+        "descriptionPlaceholder": "O que você quer publicar?",
+        "onLeaveRoute": "Pretende sair da página? É possível que as alterações feitas não tenham sido salvas."
+    },
+    "groupInfo": {
+        "administrator": "Administrador"
+    },
+    "subscribeButton": "Participar",
+    "unsubscribeButton": "Participando",
+    "unexpectedError": "Ocorreu um erro inesperado. Tente novamente, mais tarde.",
+    "tabs": {
+        "feed": "Feed",
+        "livestudy": "Estudo ao Vivo"
+    },
+    "modalBlock": {
+        "title": "Entre para começar a interagir!",
+        "subscribeButton": "Entrar no grupo",
+        "description": "Colabore e aprenda com outras pessoas. Inicie ou participe de um debate e entre em salas de estudo."
+    },
+    "groups": {
+        "title": "Grupos",
+        "description": "Compartilhe seus aprendizados e ideias. Conheça pessoas que têm interesses em comum.",
+        "tabs": {
+            "findGroups": "Encontrar grupos"
+        }
+    },
+    "pdPageNotFound": {
+        "title": "Ops! Esta página não existe!pt_BRJsao",
+        "subtitle": "Talvez esse conteúdo tenha sido removido ou se trata de um link quebrado",
+        "search": "Buscar materiais de estudo e estudantes...",
+        "meta": "Página não encontrada"
+    },
+    "multipleAccessHeader": {
+        "logout": "sair"
+    },
+    "pdSiteHeader": {
+        "pdMainMenu": {
+            "material": "Materiais de estudo",
+            "question": "Perguntas e respostas",
+            "subjects": "Minhas disciplinas",
+            "profile": "Meu Perfil",
+            "list": "Listas",
+            "history": "Histórico",
+            "file": "Enviados",
+            "pdpLandingPage": "Seja Produtor Verificado",
+            "footer": {
+                "about": "Sobre",
+                "gamification": "Gamificação",
+                "helpCenter": "Central de ajuda",
+                "jobs": "Trabalhe conosco",
+                "blog": "Blog",
+                "privacyPolicy": "Política de privacidade",
+                "userTerms": "Termos de uso",
+                "producers": "PD Produtores",
+                "branding": "Uma marca"
+            },
+            "home": "Página inicial",
+            "saved": "Salvos"
+        },
+        "pdSubjectMenu": {
+            "empty": "Você não segue disciplinas",
+            "seeAll": "Ver todas",
+            "seeMore": "Ver mais",
+            "interestedSubject": "DISCIPLINAS DE SEU INTERESSE"
+        },
+        "pdSubjectMenuItem": {
+            "unfollowSubject": "Deixar de seguir",
+            "unfollowSuccess": "Disciplina removida com sucesso."
+        },
+        "notifications": {
+            "title": "Notificações",
+            "empty": "Ops, ainda não tem <br> nenhuma notificação aqui",
+            "your": [
+                "seu",
+                "sua"
+            ],
+            "popover": {
+                "social": {
+                    "singular": "Você tem novas notificações de <b>{student}</b>",
+                    "double": "Você tem novas notificações de <b>{student}</b> e mais <b>um estudante</b>",
+                    "plural": "Você tem novas notificações de <b>{student}</b> e mais <b>{count} estudantes</b>"
+                },
+                "default": "Você tem novas notificações de <b>Passei Direto</b>"
+            },
+            "trending": {
+                "text": "Materiais mais consumidos na <b>{university}</b>"
+            },
+            "answer": {
+                "singular": "<b>{student}</b> respondeu sua pergunta <b>{question}</b> @:pdSiteHeader.notifications.answer.seeNow",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> responderam sua pergunta <b>{question}</b> @:pdSiteHeader.notifications.answer.seeNow",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> responderam sua pergunta <b>{question}</b> @:pdSiteHeader.notifications.answer.seeNow",
+                "seeNow": "veja agora!"
+            },
+            "comment": {
+                "singular": "<b>{student}</b> comentou seu material <b>{materialName}</b>. Veja agora e responda :)",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> comentaram seu material <b>{materialName}</b>. Veja agora e responda :)",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> comentaram seu material <b>{materialName}</b>. Veja agora e responda :)"
+            },
+            "commentReply": {
+                "singular": "<b>{student}</b> respondeu você no material <b>{materialName}</b>",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> responderam você no material <b>{materialName}</b>",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> responderam você no material <b>{materialName}</b>"
+            },
+            "followList": {
+                "singular": "<b>{student}</b> salvou sua lista <b>{list}</b>",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> salvaram sua lista <b>{list}</b>",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> salvaram sua lista <b>{list}</b>"
+            },
+            "levelUp": {
+                "self": "<b>Você</b> agora é <b>{level}</b> no Passei Direto!",
+                "friend": "<b>{student}</b> agora é <b>{level}</b> no Passei Direto!"
+            },
+            "fileUpload": {
+                "singular": "<b>{student}</b> compartilhou um material de <b>{subject}</b>.",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> compartilharam materiais de <b>{subject}</b>.",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> compartilharam materiais de <b>{subject}</b>."
+            },
+            "like": {
+                "singular": "<b>{student}</b> curtiu",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> curtiram",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> curtiram"
+            },
+            "verifiedUserUpload": {
+                "singular": "<b>{user}</b> compartilhou um material de <b>{subject}</b>.",
+                "plural": "<b>{user}</b> compartilhou {count} materiais de <b>{subject}</b>."
+            },
+            "newFollowers": {
+                "singular": "<b>{student}</b> começou a seguir você",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> começaram a seguir você",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> começaram a seguir você"
+            },
+            "firstFile": {
+                "text": "<b>{student}</b> enviou seu primeiro material! Incentive curtindo sua contribuição."
+            },
+            "viewToSave": {
+                "text": "<b>{student}</b>, salve <b>{content}</b> para ver depois!"
+            },
+            "viewToFollow": {
+                "text": "Você visualizou 2 materiais de <b>{subject}</b>. Siga esta disciplina e receba as novidades!"
+            },
+            "question": {
+                "singular": "<b>{student}</b> fez uma pergunta de <b>{subject}</b>.",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> fizeram uma pergunta de <b>{subject}</b>.",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> fizeram uma pergunta de <b>{subject}</b>."
+            },
+            "video": {
+                "singular": "<b>{student}</b> compartilhou um vídeo de <b>{subject}</b>. Vem assistir!",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> compartilharam vídeos de <b>{subject}</b>. Vem assistir!",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> compartilharam vídeos de <b>{subject}</b>. Vem assistir!"
+            },
+            "save": {
+                "singular": "<b>{student}</b> salvou",
+                "double": "<b>{student}</b> e mais <b>um estudante</b> salvaram",
+                "plural": "<b>{student}</b> e mais <b>{count} estudantes</b> salvaram"
+            },
+            "premiumAnswer": {
+                "text": "<b>{brand}</b> respondeu à sua pergunta <b>{question}</b>"
+            },
+            "stats": {
+                "singular": "Você teve <b>uma visualização</b> em seus materiais nesta semana. Veja suas estatísticas no PD Produtores.",
+                "plural": "Você teve <b>{count} visualizações</b> em seus materiais nesta semana. Veja suas estatísticas no PD Produtores."
+            },
+            "trendingDigest": {
+                "singular": "Parabéns! Seu material <b>{materialName}</b> entrou em alta, aumentando sua pontuação.",
+                "double": "Parabéns! Seu material <b>{materialName}</b> e mais um entraram em alta, aumentando sua pontuação.",
+                "plural": "Parabéns! Seu material <b>{materialName}</b> e outros {count} entraram em alta, aumentando sua pontuação."
+            }
+        },
+        "upload": "Enviar",
+        "exit": "Sair",
+        "premium": "Seja Premium",
+        "freeTrial": "Teste o Premium",
+        "retry": "Volte a ser Premium",
+        "sendMaterial": "ENVIAR MATERIAL",
+        "tag": "premium",
+        "nav": {
+            "profile": "Seu perfil",
+            "myaccount": "Configurações",
+            "help": "Central de ajuda",
+            "producers": "PD Produtores",
+            "lists": "Salvos",
+            "history": "Histórico",
+            "sent": "Enviados",
+            "gamification": "Você está no nível"
+        },
+        "notification": "Notificações",
+        "materialMenu": {
+            "sendMaterial": "Enviar material",
+            "sendQuestion": "Enviar pergunta"
+        }
+    },
+    "pdSearchInput": {
+        "input": "Busque por materiais, disciplinas ou perfis",
+        "recentSearch": "Buscas recentes",
+        "dynamicFilter": "em {searchContent}"
+    },
+    "creditCard": {
+        "subscribeTitle": "Adicionar novo cartão",
+        "subscribeBody": "Estamos quase lá! Informe os dados do cartão e tente pagar novamente. Seu próximo\n        pagamento vai ser cobrado automaticamente nesse mesmo cartão de crédito.",
+        "Monthly": "mês",
+        "Quarterly": "a cada três meses",
+        "Semiannual": "a cada seis meses",
+        "Yearly": "ano",
+        "errorMessage": "Ops, você digitou algum dado inválido do cartão. Confira e tente novamente.",
+        "plan": "Plano",
+        "errors": {
+            "holderNameInvalid": {
+                "title": "Informe o nome do portador como no cartão",
+                "description": ""
+            },
+            "insufficientFunds": {
+                "title": "Saldo insuficiente para a transação.",
+                "description": "Por favor, verifique o seu limite e tente novamente."
+            },
+            "blockedCard": {
+                "title": "Cartão bloqueado.",
+                "description": "Por favor, entre em contato com o seu banco e tente novamente."
+            },
+            "cardError": {
+                "title": "Dados inválidos.",
+                "description": "Por favor, revise seus dados e tente novamente."
+            },
+            "unauthorizedTransaction": {
+                "title": "Transação não autorizada.",
+                "description": "Por favor, entre em contato com o seu banco e tente novamente."
+            },
+            "paymentNotApproved": {
+                "title": "Pagamento não aprovado pelo cartão.",
+                "description": "Por favor, entre em contato com o seu banco e tente novamente."
+            },
+            "cpfAlreadyUsedAtFreeTrial": {
+                "title": "Opção invalida.",
+                "description": "Você já fez esse teste grátis."
+            },
+            "defaultError": {
+                "title": "Pagamento não aprovado pelo cartão.",
+                "description": "Por favor, entre em contato com o seu banco e tente novamente."
+            }
+        },
+        "subscription": {
+            "errors": {
+                "invalidPlan": {
+                    "title": "Plano indisponível.",
+                    "description": "Este plano não está disponível."
+                },
+                "invalidPlanAdditionalDiscount": {
+                    "title": "Desconto inválido.",
+                    "description": "Desconto inválido para o plano selecionado."
+                },
+                "invalidPlanPaymentType": {
+                    "title": "Tipo de pagamento inválido.",
+                    "description": "Tipo de pagamento inválido para o plano selecionado."
+                },
+                "cancellationNoSubscription": {
+                    "title": "Cancelamento de assinatura.",
+                    "description": "Assinatura não foi encontrada."
+                },
+                "cancellationInvalidNonActiveSubscription": {
+                    "title": "Cancelamento de assinatura.",
+                    "description": "Somente assinaturas ativas podem ser canceladas."
+                },
+                "cancellationDuplicatedRequest": {
+                    "title": "Cancelamento de assinatura.",
+                    "description": "Essa assinatura já foi cancelada."
+                },
+                "paymentNotApproved": {
+                    "title": "Pagamento não aprovado pelo cartão.",
+                    "description": "Por favor, entre em contato com o seu banco e tente novamente."
+                },
+                "trialNotAvailable": {
+                    "title": "Avaliação não disponível.",
+                    "description": "A avaliação não está disponível porque a assinatura do usuário ainda está disponível."
+                },
+                "invalidSubscriptionStatusActive": {
+                    "title": "Erro na assinatura.",
+                    "description": "Assinatura já está ativa."
+                },
+                "invalidSubscriptionStatusPending": {
+                    "title": "Erro na assinatura.",
+                    "description": "Assinatura está aguardando aprovação do pagamento."
+                },
+                "invalidSubscriptionStatusPaused": {
+                    "title": "Erro na assinatura.",
+                    "description": "Assinatura no período de pausa."
+                },
+                "pauseSubscriptionDoesntExistis": {
+                    "title": "Pause da assinatura.",
+                    "description": "Assinatura não encontrada."
+                },
+                "pauseInvalidSubscriptionStatus": {
+                    "title": "Pause da assinatura.",
+                    "description": "Usuário não possui uma assinatura ativa."
+                },
+                "pauseOnCooldown": {
+                    "title": "Pause da assinatura.",
+                    "description": "Essa assinatura foi pausade recentemente e não pode ser pausada no momento."
+                },
+                "trialAlreadUsed": {
+                    "title": "Avaliação de assinatura.",
+                    "description": "Usuário já utilizou o período de avaliação."
+                },
+                "trialNotAvailableForActivatedSubscription": {
+                    "title": "Avaliação de assinatura.",
+                    "description": "A avaliação não está disponível para uma assinatura que está ativa."
+                },
+                "pauseInvalidDurationRequest": {
+                    "title": "Pause da assinatura.",
+                    "description": "Não é possível pausar por um período muito longo."
+                },
+                "invalidPaymentInstallments": {
+                    "title": "Erro no pagamento.",
+                    "description": "Não é possível aplicar o parcelamento para o plano e método de pagamento selecionados."
+                },
+                "premiumAccessFailToGrant": {
+                    "title": "Acesso ao premium.",
+                    "description": "Erro interno ao tentar dar acesso ao Premium."
+                },
+                "invalidPromocode": {
+                    "title": "Código promocional.",
+                    "description": "Não existe um desconto ativo para esse código promocional."
+                },
+                "promocodeLimitReached": {
+                    "title": "Código promocional.",
+                    "description": "O código promocional atingiu o uso máximo e não está mais disponível."
+                },
+                "invalidSubscriptionStatusLate": {
+                    "title": "Erro na assinatura.",
+                    "description": "Assinatura em estado tardio."
+                },
+                "unexpectedBillingInvoiceStatus": {
+                    "title": "Erro no pagamento.",
+                    "description": "Status de fatura inesperado."
+                },
+                "invalidPlanForPromocode": {
+                    "title": "Código promocional.",
+                    "description": "Esse código promocional não é válido para o plano selecionado."
+                },
+                "deactivatedPromocode": {
+                    "title": "Código promocional.",
+                    "description": "Esse código promocional foi desativado e não está mais disponível."
+                },
+                "cpfAlreadyUsedAtFreeTrial": {
+                    "title": "Opção invalida.",
+                    "description": "Você já fez esse teste grátis."
+                },
+                "defaultError": {
+                    "title": "Erro na assinatura.",
+                    "description": "Não foi possível realizar sua assinatura no momento, tente novamente mais tarde."
+                }
+            }
+        }
+    },
+    "premiumRedirectBrandAwarenessModal": {
+        "checkoutPanel": {
+            "title": "Planos a partir de",
+            "choosePlan": "Conhecer Planos",
+            "paymentMethodType": {
+                "creditCard": "Cartão de Crédito",
+                "bankslip": "Boleto",
+                "pix": "Pix"
+            }
+        },
+        "argumentsPanel": {
+            "title": "Seja Premium e&nbsp;<b>vigore nos estudos!</b>",
+            "subtitle": "São <b>14 milhões de aulas, simulados, resumos e </br>muito mais</b> para você passar direto, Brasiiiiil!"
+        }
+    },
+    "premiumRedirectModal": {
+        "checkoutPanel": {
+            "title": "Planos a partir de",
+            "choosePlan": "Escolher Plano",
+            "paymentMethodType": {
+                "creditCard": "Cartão de Crédito",
+                "bankslip": "Boleto",
+                "pix": "Pix"
+            }
+        },
+        "argumentsPanel": {
+            "highSchool": {
+                "title": "Melhore suas notas com o Plano Premium",
+                "firstArgument": {
+                    "title": "Mandar bem no ENEM nunca foi tão fácil",
+                    "description": "Estude com materiais criados por quem já passou<br> no ENEM e em outros vestibulares."
+                },
+                "secondArgument": {
+                    "title": "Aprenda com especialistas",
+                    "description": "Provas, exercícios, videoaulas, resumos e muito mais!<br> Tudo produzido por quem entende do assunto."
+                },
+                "thirdArgument": {
+                    "title": "Estude em qualquer lugar",
+                    "description": "Baixe nosso aplicativo e acesse os materiais no<br> modo offline, sem precisar de internet."
+                }
+            },
+            "graduate": {
+                "title": "Você sabe como o Plano Premium pode te<br> ajudar a se formar?",
+                "firstArgument": {
+                    "title": "São materiais de diversas faculdades",
+                    "description": "Exercícios, resumos, videoaulas e muito mais!<br> Tudo para você acessar de forma ilimitada."
+                },
+                "secondArgument": {
+                    "title": "Ganhe tempo nos estudos",
+                    "description": "Encontre todos os materiais que precisa em um<br> só lugar, sem perder tempo. "
+                },
+                "thirdArgument": {
+                    "title": "Estude em qualquer lugar",
+                    "description": "Baixe nosso aplicativo e acesse os materiais no<br> modo offline, sem precisar de internet."
+                }
+            },
+            "general": {
+                "title": "Por que assinar o Plano Premium?",
+                "firstArgument": {
+                    "title": "Veja todos os materiais completos",
+                    "description": "Exercícios, resumos, videoaulas e muito mais!<br> Tudo produzido por estudantes e especialistas."
+                },
+                "secondArgument": {
+                    "title": "Ganhe tempo nos estudos",
+                    "description": "Encontre todos os materiais que precisa em um<br> só lugar, sem perder tempo. "
+                },
+                "thirdArgument": {
+                    "title": "Estude em qualquer lugar",
+                    "description": "Baixe nosso aplicativo e acesse os materiais no<br> modo offline, sem precisar de internet."
+                }
+            }
+        }
+    },
+    "ContentOneClickModal": {
+        "title": {
+            "default": "Volte a ser Premium com 1 clique"
+        },
+        "subtitle": {
+            "default": "É só escolher seu Plano, conferir os dados de pagamento e reativar sua assinatura."
+        },
+        "subscription": {
+            "type": "Tipo de assinatura",
+            "paymentMethod": "Dados de pagamento"
+        },
+        "changeSubscriptionOrPayment": {
+            "default": "Quer alterar o tipo de assinatura ou forma de pagamento?",
+            "link": {
+                "click": "Clique aqui"
+            }
+        },
+        "termsOfUse": "Ao aceitar o <a href=\"http://resources.passeidireto.com.s3.amazonaws.com/contratos/Contrato-de-prestacao-servico-Passei-Direto.pdf\" target=\"_blank\" class=\"test_service\"><b>Contrato de serviço</b></a>, você autoriza a <b>renovação automática</b> do seu plano. Ou seja, <b>o valor da sua assinatura vai ser cobrado automaticamente</b> no seu cartão de crédito, após o período de 12 meses, até que você cancele.",
+        "button": {
+            "label": "Reativar assinatura"
+        }
+    },
+    "ContentUpsellModal": {
+        "title": {
+            "default": "Eba! Falta apenas 1 clique para você se tornar Premium Anual!"
+        },
+        "subtitle": {
+            "default": "Agora, é só conferir os dados abaixo e clicar no botão."
+        },
+        "subscription": {
+            "type": "Tipo de assinatura",
+            "installments": "Parcelas",
+            "paymentMethod": "Forma de pagamento"
+        },
+        "chargeInformation": {
+            "default": "A cobrança só ocorrerá em {date}, data de renovação do plano."
+        },
+        "termsOfUse": "Ao aceitar o <a href=\"http://resources.passeidireto.com.s3.amazonaws.com/contratos/Contrato-de-prestacao-servico-Passei-Direto.pdf\" target=\"_blank\" class=\"test_service\"><b>Contrato de serviço</b></a>, você autoriza a renovação automática da cobrança em seu cartão até que cancele a assinatura.",
+        "button": {
+            "label": "Migrar para o Plano Anual"
+        },
+        "errors": {
+            "loadPaymentMethodError": "Atualize seu cartão para migrar de plano.",
+            "subscribeError": "Não foi possível finalizar a sua migração. <a href=\"https://centraldeajuda.passeidireto.com/hc/pt-br/requests/new\" target=\"_blank\"><b>Clique aqui</b></a> e mande uma mensagem para entender o que aconteceu."
+        }
+    },
+    "UpsellSucceedModal": {
+        "title": {
+            "celebrate": "Uhul!",
+            "text": " Um ano de Premium garantido!"
+        },
+        "text": "Seu Premium Anual será ativado em {activationDate}, enquanto isso, aproveite o restante do seu plano atual. ",
+        "button": "Acessar Materiais"
+    },
+    "ContentChargeErrorModal": {
+        "titlePaymentFailure": "Ops, falha no pagamento.",
+        "titleCardFailure": "Ops, falha no cartão.",
+        "btnTextNewCard": "Inserir novo cartão",
+        "btnTextChangePaymentMethod": "Alterar forma de pagamento",
+        "errorText": {
+            "blockedCard": "Esse cartão está bloqueado. Por favor, insira um novo cartão para finalizar sua assinatura.",
+            "unauthorizedTransaction": "Transação não autorizada pelo banco. Por favor, insira um novo cartão para finalizar sua assinatura.",
+            "insuficientFunds": "Saldo insuficiente para essa transação. Por favor, altere a forma de pagamento para finalizar sua assinatura.",
+            "expiredCard": "Validade expirada. Por favor, insira um novo cartão para finalizar sua assinatura.",
+            "paymentNotApproved": "Pagamento não aprovado. Por favor, insira um novo cartão para finalizar a assinatura."
+        }
     }
-  }
 }
